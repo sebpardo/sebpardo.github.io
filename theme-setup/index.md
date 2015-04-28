@@ -7,6 +7,7 @@ image:
   feature: sample-image-3.jpg
   credit: WeGraphics
   creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+markdown: kramdown
 ---
 
 {% include _toc.html %}

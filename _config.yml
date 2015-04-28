@@ -1,8 +1,8 @@
 # Site wide configuration
 
-title:            Site Title
-locale:           en_US
-url:              
+title:            Sebastián A. Pardo
+locale:           en_CA
+url:              http://localhost:4000
 
 
 # Jekyll configuration
@@ -15,6 +15,8 @@ sass:
   style: compressed
 gems:
   - jekyll-sitemap
+#  - jekyll-pandoc
+#  - jekyll-pandoc-multiple-formats
 
 kramdown:
   auto_ids: true
@@ -23,15 +25,33 @@ kramdown:
   toc_levels: 1..6
   use_coderay: false
 
+pandoc:
+  extensions:
+    - smart
+    - mathjax
+    - csl: _styles/ch.csl
+    - bibliography: ~/Documents/bib/library.bib
+
+#pandoc:
+#  skip: false
+#  impose: false
+#  output: ./tmp
+#  flags: '--smart --parse-raw --csl=_styles/jpp.csl --bibliography=/home/mavzz/Documents/bib/library#.bib'
+#  site_flags: '--toc'
+#  outputs:
+#    pdf: '--latex-engine=pdflatex'
+#    epub:
+#    markdown: 
+
 
 # Site owner
 owner:
-  name: Your Name
-  avatar: bio-photo.jpg
-  bio: "Describe your self."
-  email: 
+  name: Sebastián Pardo
+  avatar: sebphoto2.jpg
+  bio: "PhD student at SFU: life history relationships and extinction risk in sharks, rays, and chimaeras"
+  email: spardo@sfu.ca
   disqus-shortname: 
-  twitter: #username
+  twitter: sebpardo
   facebook: #username
   google:
     plus: #username
@@ -40,7 +60,7 @@ owner:
     ad-client: 
     ad-slot: 
   bing-verify: 
-  github: #username
+  github: sebpardo
   stackoverflow: #http://stackoverflow.com/users/123456/username
   linkedin: #username
   xing: #username
