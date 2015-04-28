@@ -28,6 +28,19 @@
   </div><!-- /.image-wrap -->
 {% endif %}
 
+<!-- jekyll-pandoc-multiple-formats:
+generate links to the other available formats from the post itself -->
+<ul>
+  {% for format in site.pandoc.outputs %}
+  {% capture extension %}{{ format | first }}{% endcapture %}
+  <li>
+    <a href="{{ extension }}{{ page.url | remove:'.html' }}.{{ extension }}">
+      {{ extension }}
+    </a>
+  </li>
+  {% endfor %}
+</ul>
+
 <div id="main" role="main">
   <div class="article-author-side">
     {% include _author-bio.html %}
