@@ -11,6 +11,7 @@ image:
 2015
 :      <div data-badge-popover="left" data-badge-type="2" data-doi="" data-hide-no-mentions="true" class="altmetric-embed"></div>
 **Pardo, S. A.**, Cooper, A. B., Reynolds, J. D., Dulvy, N. K. 2015. Quantifying known unknowns: estimating maximum intrinsic rate of population increase in the face of uncertainty. *ICES Journal of Marine Science*, In press.
+       
        <div data-badge-popover="left" data-badge-type="2" data-doi="" data-hide-no-mentions="true" class="altmetric-embed"></div>
        **Pardo, S. A.**, Burgess, K., Teixeira, D., Bennett, M. B. 2015. Local-scale dietary partitioning by stingrays in an intertidal area. *Marine Ecology Progress Series*, In press. 
 
