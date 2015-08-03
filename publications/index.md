@@ -45,6 +45,8 @@ Pierce, S. J., **Pardo, S. A.**, Bennett, M. B. 2009. Reproduction of the blue-s
 2015
 :      Maia, R., Chamberlain, S., Teucher, A., **Pardo, S.** 2015. rebird: R Client for the eBird Database of Bird Observations. Retrieved from 
        <http://cran.r-project.org/package=rebird>
+       <br>[![rstudio mirror downloads](http://cranlogs.r-pkg.org/badges/rebird)](https://github.com/metacran/cranlogs.app)
+<!--- for space between packages use <br><br> --->
 
 
 
