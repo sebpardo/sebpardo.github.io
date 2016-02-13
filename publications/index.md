@@ -14,6 +14,13 @@ image:
      population increase in the face of uncertainty.
      *ICES Journal of Marine Science*, In press.
 -->
+
+In press
+:    <div data-badge-popover="left" data-badge-type="2" data-doi="" data-hide-no-mentions="true" class="altmetric-embed"></div>
+     **Pardo, S. A.**, Kindsvater, H. K., Reynolds, J. D., Dulvy, N. K. 2016.
+     Maximum intrinsic rate of population increase in sharks, rays, and chimaeras: the importance of survival to maturity.
+     *Canadian Journal of Fisheries and Aquatic Sciences*, In press.
+
 2015
 :    <div data-badge-popover="left" data-badge-type="2" data-doi="10.3354/meps11358" data-hide-no-mentions="true" class="altmetric-embed"></div>
      **Pardo, S. A.**, Burgess, K., Teixeira, D., Bennett, M. B. 2015. Local-scale resource partitioning by stingrays on an intertidal flat. *Marine Ecology Progress Series* 533, 205-218. <http://dx.doi.org/10.3354/meps11358>
