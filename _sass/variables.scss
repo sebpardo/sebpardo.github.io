@@ -7,11 +7,11 @@
    ========================================================================== */
 
 $doc-font-size: 16;
-$doc-line-height: 26;
+$doc-line-height: 32; // 26; is default
 $paragraph-indent: false; // true !default;
-$base-font: 'PT Serif', serif;
+$base-font: 'PT Serif', serif; // 'Roboto', sans-serif; 
 $heading-font: 'PT Sans Narrow', sans-serif;
-$code-font: Monaco, "Courier New", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace;
+$code-font: 'Inconsolata', Monaco, "Courier New", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace;
 $alt-font: $base-font;
 
 /* 

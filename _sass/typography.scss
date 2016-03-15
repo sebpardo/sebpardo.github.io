@@ -167,7 +167,7 @@ tt, code, kbd, samp, pre {
 p,
 li { 
 	code {
-		@include font-rem(14);
+		@include font-rem(15);
 		line-height: 1.5;
 		white-space: nowrap;
 		margin: 0 2px;
@@ -177,13 +177,15 @@ li {
 		@include rounded(3px);
 	}
 }
-pre {
-	@include font-rem(14);
+pre { // THIS IS THE SECTION TO DEFINE CODE BLOCKS FROM RMD OUTPUT:
+	@include font-rem(15);
 	border-radius: 5px;
+	border-left: 16px solid lighten($border-color, 65); //add left border
+    //border: 1px solid lighten($black,80);
     padding-top: 8px;
 	padding-bottom: 8px;
 	padding-left: 8px;
 	padding-right: 5px;
-    line-height: 1.3;
+    line-height: 1.2;
 	overflow-x: auto;
 }
