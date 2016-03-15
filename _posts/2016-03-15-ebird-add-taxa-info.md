@@ -1,12 +1,12 @@
 ---
 layout: post
 title: Adding Order and Family fields to eBird's taxonomic checklist
-date: "March 14, 2016"
+date: "March 15, 2016"
 excerpt: "Merging data from the eBird, IOC, and BirdLife checklists"
-modified: 2016-03-14
+modified: 2016-03-15
 ---
 
-As a bird-nerd, I spend a lot of my time playing with bird-related data. Lately I've been tinkering with code to interface with [eBird](http://www.ebird.org), a global citizen science initiative that records bird sightings throughout the world, and even helps you maintain your own lists (for those of you who are listers, that is...).
+Every now and them I spend some of my time playing with bird-related data. Lately I've been tinkering with code to interface with [eBird](http://www.ebird.org), a global citizen science initiative that records bird sightings throughout the world, and even helps you maintain your own lists (for those of you who are listers, that is...).
 
 The [eBird API interface](https://confluence.cornell.edu/display/CLOISAPI/eBird+API+1.1) allows for downloading their most up-to-date latest checklist, and can be accessed in R using the `ebirdtaxonomy` function in the [rebird](https://github.com/ropensci/rebird) package. Unfortunately, this checklist doesn't include any high-level taxonomic information, such as order and family, for each species.
 
@@ -21,7 +21,9 @@ library(tidyr)
 library(xml2)
 ```
 
-First, we load eBird's taxonomic checklist and separate the scientific name into two columns, `genus` and `species`
+### eBird's taxonomic checklist
+
+First, we load eBird's taxonomic checklist and separate the scientific name into two columns, `genus` and `species`:
 
 ``` r
 ebirdtax <- ebirdtaxonomy(cat = "species") %>% 
@@ -47,7 +49,7 @@ ebirdtax %>% select(genus, species, everything())
     ## Variables not shown: sciNameCodes (chr), sciName (chr), taxonID (chr),
     ##   taxonOrder (dbl), comNameCodes (chr), bandingCodes (chr)
 
-This checklist has 10473 species and, as already mentioned, doesn't contain any columns with order or family information. We need to obtain that information somewhere else and match it to this checklist. For ease of comparison throughout this post, we'll just focus on distinct genera
+This checklist has 10473 species and, as already mentioned, doesn't contain any columns with order or family information. We need to obtain that information somewhere else and match it to this checklist. For ease of comparison throughout this post, we'll just focus on distinct genera.
 
 ``` r
 ebirdgen <- select(ebirdtax, genus) %>%
@@ -73,9 +75,11 @@ ebirdgen
 
 This leaves us with 2226 unique genera.
 
+### BirdLife's taxonomic checklist
+
 There are other organizations that also maintain their own complete bird species checklists, but do include information on order and families for each species. One of these is [BirdLife International](http://www.birdlife.org/datazone/info/taxonomy). We need to download the latest version of this checklist; for simplicity I've already turned this list into a .csv file which you can download [here](http://www.asd.com/) (you can also download the original .zip file with the complete information [here](http://www.birdlife.org/datazone/userfiles/file/Species/Taxonomy/BirdLife_Checklist_Version_80.zip)).
 
-A little bit of wrangling is required to make this checklist comparable with eBird's taxonomy
+A little bit of wrangling is required to make this checklist comparable with eBird's taxonomy:
 
 ``` r
 birdlifetax <- read.csv("~/Projects/stats-ebird/BirdLife-v8.csv", 
@@ -100,11 +104,11 @@ birdlifetax
     ## 10 STRUTHIONIFORMES     Tinamidae       Nothocercus julius  Tinamous
     ## ..              ...           ...                      ...       ...
     ## Variables not shown: Common.name (chr), Authority (chr),
-    ##   BirdLife.taxonomic.treatment (chr), IUCN_RL_2015 (chr), Synonyms (chr),
-    ##   Alternative.common.names (chr), Taxonomic.notes (chr),
+    ##   BirdLife.taxonomic.treatment (chr), IUCN_RL_2015 (chr), Synonyms
+    ##   (chr), Alternative.common.names (chr), Taxonomic.notes (chr),
     ##   Taxonomic.sources. (chr), SISRecID (int), SpcRecID (int)
 
-As you can see, this second checklist contains more species than eBird (11862). We'll split the scientific name into genus and species, capitalize only the first letter of each order (using a small function) , and select all unique genera with their respective order and family columns
+As you can see, this second checklist contains more species than eBird (11862). We'll split the scientific name into genus and species, capitalize only the first letter of each order (using a small function) , and select all unique genera with their respective order and family columns:
 
 ``` r
 capFirst <- function(x) {
@@ -183,9 +187,11 @@ data.frame(genus = ebirdbl.diff) %>% tbl_df
     ## 10 Chroicocephalus
     ## ..             ...
 
-So between the eBird and BirdLife checklists, there are genera that are are in one but not the other!
+So between the eBird and BirdLife checklists, there are 339 genera that are are in one but not the other!
 
-There are too many genera missing to enter by hand, so we need to find another data source to fill in the gaps. The [IOC World Bird List](http://www.worldbirdnames.org/) is another well-maintained bird species checklist. Their spreadsheet file is way too messy to work with, however we can parse the [XML file](http://www.worldbirdnames.org/master_ioc-names_xml.xml) they provide. I have very little experience with XML code but I am very grateful that [Scott Chamberlain](https://twitter.com/sckottie), who works at [ROpenSci](http://ropensci.org/), conjured some black magic and came up with code to turn the XML into a data frame (you can see his gist [here](https://gist.github.com/sckott/c0437a71a889793e30d5)).
+### IOC's taxonomic checklist
+
+There are too many genera missing to enter by hand, so we need to find another data source to fill in the gaps. The [IOC World Bird List](http://www.worldbirdnames.org/) is another well-maintained bird species checklist. Their spreadsheet file is way too messy to work with, however we can parse the [XML file](http://www.worldbirdnames.org/master_ioc-names_xml.xml) they provide. I have very little experience with XML code but I am very grateful that [Scott Chamberlain](https://twitter.com/sckottie), who works at [ROpenSci](http://ropensci.org/), conjured some black magic and came up with code to turn the XML into a data frame (you can see his gist [here](https://gist.github.com/sckott/c0437a71a889793e30d5)):
 
 ``` r
 # sourcing the gist creates a data frame named df
@@ -265,7 +271,28 @@ So, we kept the first instance of *Abeillia*, and so on. Now we a have a compreh
 ``` r
 ebirdorders <- left_join(ebirdgen, allgenera, by = "genus") %>%
   select(order, family, genus)
+ebirdorders
+```
 
+    ## Source: local data frame [2,226 x 3]
+    ## 
+    ##               order        family        genus
+    ##               (chr)         (chr)        (chr)
+    ## 1  Struthioniformes Struthionidae     Struthio
+    ## 2        Rheiformes       Rheidae         Rhea
+    ## 3      Tinamiformes     Tinamidae  Nothocercus
+    ## 4      Tinamiformes     Tinamidae      Tinamus
+    ## 5      Tinamiformes     Tinamidae Crypturellus
+    ## 6      Tinamiformes     Tinamidae   Rhynchotus
+    ## 7      Tinamiformes     Tinamidae  Nothoprocta
+    ## 8      Tinamiformes     Tinamidae      Nothura
+    ## 9      Tinamiformes     Tinamidae    Taoniscus
+    ## 10     Tinamiformes     Tinamidae     Eudromia
+    ## ..              ...           ...          ...
+
+We have merged all genera, with their order and family data, from the BirdLife and IOC checklists and now successfully merged it with the eBird checklist. Even though the BirdLife and IOC checklists are up-to-date, it is likely that some genera included in eBird aren't included in either of the previous lists.
+
+``` r
 ebirdmissing <- ebirdorders %>% filter(is.na(order))
 ebirdmissing
 ```
@@ -286,6 +313,8 @@ ebirdmissing
     ## 10    NA     NA Cercomacroides
     ## ..   ...    ...            ...
 
+### Filling in the gaps
+
 There are still 39 genera for which we do not have order or family info. Given that the eBird checklist is ordered taxonomically, one way around this is by checking the order and family values around each `NA` value: if they are the same, then we can use this value to fill in the blanks:
 
 ``` r
@@ -293,9 +322,9 @@ NAs <- which(ebirdorders$genus %in% ebirdmissing$genus)
 NAs
 ```
 
-    ##  [1]   30  304  342  351  526  721  806  946  966  997 1234 1241 1248 1303
-    ## [15] 1317 1403 1405 1406 1407 1408 1427 1428 1540 1733 1737 1741 1745 1754
-    ## [29] 1758 1853 1878 1909 1976 2162 2163 2186 2202 2209 2221
+    ##  [1]   30  304  342  351  526  721  806  946  966  997 1234 1241 1248
+    ## [14] 1303 1317 1403 1405 1406 1407 1408 1427 1428 1540 1733 1737 1741
+    ## [27] 1745 1754 1758 1853 1878 1909 1976 2162 2163 2186 2202 2209 2221
 
 ``` r
 print(ebirdorders[(NAs[1]-1):(NAs[1]+1),])
@@ -410,7 +439,7 @@ anyNA(ebirdorders$family)
 
     ## [1] FALSE
 
-Voila! No more missing values! We can join this list of genera back to the full taxonomic checklist with all species, or to your own checklist of sightings downloaded from eBird's [website](http://ebird.org/ebird/downloadMyData):
+Voilà! No more missing values! We can join this list of genera back to the full taxonomic checklist with all species, or to your own checklist of sightings downloaded from eBird's [website](http://ebird.org/ebird/downloadMyData):
 
 ``` r
 ebirdfull <- left_join(ebirdtax, ebirdorders, by = "genus")
