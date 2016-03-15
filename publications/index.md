@@ -18,11 +18,11 @@ image:
      *ICES Journal of Marine Science*, In press.
 -->
 
-In press
+In review
 :    <div data-badge-popover="left" data-badge-type="2" data-doi="" data-hide-no-mentions="true" class="altmetric-embed"></div>
      **Pardo, S. A.**, Kindsvater, H. K., Reynolds, J. D., Dulvy, N. K. 2016.
      Maximum intrinsic rate of population increase in sharks, rays, and chimaeras: the importance of survival to maturity.
-     *Canadian Journal of Fisheries and Aquatic Sciences*, In press.
+     *Canadian Journal of Fisheries and Aquatic Sciences*, In review.
 
 2015
 :    <div data-badge-popover="left" data-badge-type="2" data-doi="10.3354/meps11358" data-hide-no-mentions="true" class="altmetric-embed"></div>
