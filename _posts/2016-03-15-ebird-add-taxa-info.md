@@ -77,7 +77,7 @@ This leaves us with 2226 unique genera.
 
 ### BirdLife's taxonomic checklist
 
-There are other organizations that also maintain their own complete bird species checklists, but do include information on order and families for each species. One of these is [BirdLife International](http://www.birdlife.org/datazone/info/taxonomy). We need to download the latest version of this checklist; for simplicity I've already turned this list into a .csv file which you can download [here](http://www.asd.com/) (you can also download the original .zip file with the complete information [here](http://www.birdlife.org/datazone/userfiles/file/Species/Taxonomy/BirdLife_Checklist_Version_80.zip)).
+There are other organizations that also maintain their own complete bird species checklists, but do include information on order and families for each species. One of these is [BirdLife International](http://www.birdlife.org/datazone/info/taxonomy). We need to download the latest version of this checklist; for simplicity I've already turned this list into a .csv file which you can download [here]({{ site.url }}/files/BirdLife-v8.csv) (you can also download the original .zip file with the complete information [here](http://www.birdlife.org/datazone/userfiles/file/Species/Taxonomy/BirdLife_Checklist_Version_80.zip)).
 
 A little bit of wrangling is required to make this checklist comparable with eBird's taxonomy:
 
