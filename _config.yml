@@ -9,7 +9,6 @@ url:              http://sebpardo.github.io
 
 permalink:   /:categories/:title/
 markdown:    kramdown
-highlighter: rouge 
 sass:
   sass_dir: _sass
   style: compressed
@@ -23,11 +22,12 @@ gems:
 #  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
 
 kramdown:
+  input: GFM
+  syntax_highlighter: rouge
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  enable_coderay: false
 
 pandoc:
   extensions:
