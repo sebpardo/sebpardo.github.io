@@ -18,6 +18,12 @@ image:
      *ICES Journal of Marine Science*, In press.
 -->
 
+Pre-prints
+:    <div data-badge-popover="left" data-badge-type="2" data-doi="10.1101/043885" data-hide-no-mentions="true" class="altmetric-embed"></div>
+     **Pardo, S. A.**, Kindsvater, H. K., Cuevas-Zimbrón, E., Sosa-Nishizaki, O., Pérez-Jiménez, J. C., Dulvy, N. K. 2016.
+     Devil in the details: growth, productivity, and extinction risk of a data-sparse devil ray.
+     *BioRxiv*, available at: <http://dx.doi.org/10.1101/043885>
+
 In review
 :    <div data-badge-popover="left" data-badge-type="2" data-doi="" data-hide-no-mentions="true" class="altmetric-embed"></div>
      **Pardo, S. A.**, Kindsvater, H. K., Reynolds, J. D., Dulvy, N. K. 2016.
