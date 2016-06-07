@@ -8,8 +8,8 @@ modified: 2016-06-01
 
 The Banggai cardinalfish (*Pterapogon kauderni*) is an unusual teleost
 in that it lacks a planktonic larval phase as males mouth brood and care
-for the eggs and larvae. These traits result in that a significant
-portion of eggs survive to maturity, making this species more akin to
+for the eggs and larvae. These traits result in a significant
+portion of eggs surviving to maturity, making this species more akin to
 mammals and chondrichthyans in terms of survival and reproduction, than
 to the majority of other teleosts. We obtain an estimate of productivity
 for this species using the approach developed for other relatively low
