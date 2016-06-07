@@ -3,7 +3,7 @@ layout: post
 title: Estimating productivity for the Banggai cardinalfish
 date: "June 1, 2016"
 excerpt: "Estimating the maximum intrinsic rate of population increase under different life history scenarios"
-modified: 2016-06-01
+modified: 2016-06-07
 ---
 
 The Banggai cardinalfish (*Pterapogon kauderni*) is an unusual teleost
@@ -29,7 +29,7 @@ growth rate in the **absence of density dependence**, and is equivalent
 to the fishing mortality that will drive a species to extinction
 *F*<sub>*e**x**t*</sub> (Dulvy et al. 2004).
 
-![Banggai cardinalfish](/figure/913px-Banggai_cardinal_fish.jpg)<br>
+![Banggai cardinalfish](/images/913px-Banggai_cardinal_fish.jpg)<br>
 [Banggai cardinalfish](http://www.flickr.com/photos/jonhanson/207565670/in/set-72157594219248063/)
 / [John Hanson](http://www.flickr.com/people/61952179@N00) / [CC BY-SA
 2.0](https://creativecommons.org/licenses/by-sa/2.0/deed.en)
