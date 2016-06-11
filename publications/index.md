@@ -27,12 +27,12 @@ In review
 
 <!-- BioRxiv altmetric <div data-badge-popover="top" data-badge-type="1" data-doi="10.1101/043885" data-hide-no-mentions="true" class="altmetric-embed"></div> -->
 
-In press 
-:    <div data-badge-popover="left" data-badge-type="2" data-doi="" data-hide-no-mentions="true" class="altmetric-embed"></div>
+2016 
+:    <div data-badge-popover="left" data-badge-type="2" data-doi="10.1139/cjfas-2016-0069" data-hide-no-mentions="true" class="altmetric-embed"></div>
      **Pardo, S. A.**, Kindsvater, H. K., Reynolds, J. D., Dulvy, N. K. 2016.
      Maximum intrinsic rate of population increase in sharks, rays, and chimaeras: the importance of survival to maturity.
-     *Canadian Journal of Fisheries and Aquatic Sciences*. Accepted.  
-     Pre-print available from *BioRxiv*: <http://dx.doi.org/10.1101/051482>
+     *Canadian Journal of Fisheries and Aquatic Sciences*. Available online. <http://dx.doi.org/10.1139/cjfas-2016-0069><br>
+     Pre-print: [[*BioRxiv*](http://dx.doi.org/10.1101/051482)]
 
 2015
 :    <div data-badge-popover="left" data-badge-type="2" data-doi="10.3354/meps11358" data-hide-no-mentions="true" class="altmetric-embed"></div>
@@ -40,7 +40,8 @@ In press
 
 2014
 :    <div data-badge-popover="left" data-badge-type="2" data-doi="10.7717/peerj.400" data-hide-no-mentions="true" class="altmetric-embed"></div>
-     Dulvy, N. K., **Pardo, S. A.**, Simpfendorfer, C. A., Carlson, J. K. 2014. Diagnosing the dangerous demography of manta rays using life history theory. *PeerJ* 2: e400. Supplementary data on [FigShare](http://dx.doi.org/10.6084/m9.figshare.1009215). <http://dx.doi.org/10.7717/peerj.400>
+     Dulvy, N. K., **Pardo, S. A.**, Simpfendorfer, C. A., Carlson, J. K. 2014. Diagnosing the dangerous demography of manta rays using life history theory. *PeerJ* 2: e400. Supplementary data on [FigShare](http://dx.doi.org/10.6084/m9.figshare.1009215). <http://dx.doi.org/10.7717/peerj.400><br>
+     Pre-print: [[*PeerJ Preprints*](https://peerj.com/preprints/162/)]
 
 2013
 :    <div data-badge-popover="left" data-badge-type="2" data-doi="10.1111/2041-210x.12020" data-hide-no-mentions="true" class="altmetric-embed"></div>
