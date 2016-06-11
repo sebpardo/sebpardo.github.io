@@ -39,12 +39,12 @@ In review
      **Pardo, S. A.**, Burgess, K., Teixeira, D., Bennett, M. B. 2015. Local-scale resource partitioning by stingrays on an intertidal flat. *Marine Ecology Progress Series* 533, 205-218. <http://dx.doi.org/10.3354/meps11358>
 
 2014
-:    <div data-badge-popover="left" data-badge-type="2" data-doi="10.7717/peerj.400" data-hide-no-mentions="true" class="altmetric-embed"></div>
+:    <div id="block_container"><div id="am" data-badge-popover="left" data-badge-type="2" data-doi="10.7717/peerj.400" data-hide-no-mentions="true" class="altmetric-embed"></div><div id="oa"><i class="ai fa-fw ai-open-access fa-lg"></i></div></div>
      Dulvy, N. K., **Pardo, S. A.**, Simpfendorfer, C. A., Carlson, J. K. 2014. Diagnosing the dangerous demography of manta rays using life history theory. *PeerJ* 2: e400. Supplementary data on [FigShare](http://dx.doi.org/10.6084/m9.figshare.1009215). <http://dx.doi.org/10.7717/peerj.400><br>
      Pre-print: [[*PeerJ Preprints*](https://peerj.com/preprints/162/)]
 
 2013
-:    <div data-badge-popover="left" data-badge-type="2" data-doi="10.1111/2041-210x.12020" data-hide-no-mentions="true" class="altmetric-embed"></div>
+:    <div id="block_container"><div id="am" data-badge-popover="left" data-badge-type="2" data-doi="10.1111/2041-210x.12020" data-hide-no-mentions="true" class="altmetric-embed"></div><div id="oa"><i class="ai fa-fw ai-open-access fa-lg"></i></div></div>    
      **Pardo, S. A.**, Cooper, A. B. & Dulvy, N. K. 2013. Avoiding fishy growth curves. *Methods in Ecology and Evolution* 4, 353–360. <http://dx.doi.org/10.1111/2041-210x.12020>  
 
      <div data-badge-popover="left" data-doi="10.1017/S037689291300012X" data-hide-no-mentions="true" class="altmetric-embed"></div>

@@ -8,6 +8,19 @@ body {
 	color: $text-color;
 }
 
+/*=======
+    Align altmetric and open access icons in publications page
+    ===== */
+
+#block_container
+{
+    text-align:left;
+}
+#am, #oa
+{
+    display:inline;
+}
+
 /* 
    Header
    ========================================================================== */
@@ -441,7 +454,10 @@ $button-size: 1.5rem;
 
 /* Post content wrapper */
 .article-wrap {
-	// Dotted line underlines for links
+    p {
+      font-size: 16px; // THIS IS THE PLACE TO CHANGE FONTS FOR MAIN BODY TEXT (MAIN PAGE, PUBS, BLOG POSTS)
+    }
+    // Dotted line underlines for links
 	p > a,
 	li > a {
 		text-decoration: underline;
