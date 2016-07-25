@@ -31,7 +31,7 @@ In review
 :    <div data-badge-popover="left" data-badge-type="2" data-doi="10.1139/cjfas-2016-0069" data-hide-no-mentions="true" class="altmetric-embed"></div>
      **Pardo, S. A.**, Kindsvater, H. K., Reynolds, J. D., Dulvy, N. K. 2016.
      Maximum intrinsic rate of population increase in sharks, rays, and chimaeras: the importance of survival to maturity.
-     *Canadian Journal of Fisheries and Aquatic Sciences*. Available online. <http://dx.doi.org/10.1139/cjfas-2016-0069><br>
+     *Canadian Journal of Fisheries and Aquatic Sciences* 73:8, 1159-1163. <http://dx.doi.org/10.1139/cjfas-2016-0069><br>
      Pre-print: [[*BioRxiv*](http://dx.doi.org/10.1101/051482)]
 
 2015
@@ -48,7 +48,7 @@ In review
      **Pardo, S. A.**, Cooper, A. B. & Dulvy, N. K. 2013. Avoiding fishy growth curves. *Methods in Ecology and Evolution* 4, 353–360. <http://dx.doi.org/10.1111/2041-210x.12020>  
 
      <div data-badge-popover="left" data-doi="10.1017/S037689291300012X" data-hide-no-mentions="true" class="altmetric-embed"></div>
-Moore, J. E., Curtis, K. A., Lewison, R. L., Dillingham, P. W., Cope, J. M., Fordham, S. V, Heppell, S. S., **Pardo, S. A.**, Simpfendorfer, C. A., Tuck, G. N., Zhou, S. 2013. Evaluating sustainability of fisheries bycatch mortality for marine megafauna: a review of conservation reference points for data-limited populations. *Environmental Conservation* 40:4 329-344. <http://dx.doi.org/10.1017/S037689291300012X>
+Moore, J. E., Curtis, K. A., Lewison, R. L., Dillingham, P. W., Cope, J. M., Fordham, S. V, Heppell, S. S., **Pardo, S. A.**, Simpfendorfer, C. A., Tuck, G. N., Zhou, S. 2013. Evaluating sustainability of fisheries bycatch mortality for marine megafauna: a review of conservation reference points for data-limited populations. *Environmental Conservation* 40:4, 329-344. <http://dx.doi.org/10.1017/S037689291300012X>
 
 2012
 :      <div data-badge-popover="left" data-doi="" data-hide-no-mentions="true" class="altmetric-embed"></div>
