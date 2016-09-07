@@ -18,11 +18,11 @@ image:
      *ICES Journal of Marine Science*. In press.
 -->
 
-In review
+In press 
 :    <div data-badge-popover="left" data-badge-type="2" data-doi="" data-hide-no-mentions="true" class="altmetric-embed"></div>
      **Pardo, S. A.**, Kindsvater, H. K., Cuevas-Zimbrón, E., Sosa-Nishizaki, O., Pérez-Jiménez, J. C., Dulvy, N. K. 2016.
      Devil in the details: growth, productivity, and extinction risk of a data-sparse devil ray.
-     *Scientific Reports*. In review.  
+     *Scientific Reports*. Accepted.  
      Pre-print available from *BioRxiv*: <http://dx.doi.org/10.1101/043885>
 
 <!-- BioRxiv altmetric <div data-badge-popover="top" data-badge-type="1" data-doi="10.1101/043885" data-hide-no-mentions="true" class="altmetric-embed"></div> -->
@@ -63,7 +63,7 @@ Pierce, S. J., **Pardo, S. A.**, Bennett, M. B. 2009. Reproduction of the blue-s
 
 ## R packages
 
-2015
+2016
 :      Maia, R., Chamberlain, S., Teucher, A., **Pardo, S.** 2016. rebird: R Client for the eBird Database of Bird Observations. R package version 0.3.0. Retrieved from 
        <http://cran.r-project.org/package=rebird>
        <br>[![rstudio mirror downloads](http://cranlogs.r-pkg.org/badges/rebird)](https://github.com/metacran/cranlogs.app)
