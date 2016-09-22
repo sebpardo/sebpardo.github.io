@@ -6,7 +6,7 @@ sitemap: false
 permalink: /mobula-photos.html
 ---  
 
-These images can be used by the media for news stories associated with the devil ray productivity press release. These images are copyrighted to their respective authors, please make sure the attribution includes the author name, and either their website or Instagram page.
+These images can be used by the media for news stories associated with the devil ray productivity press release. Each image's author is specified below, please make sure that the author's name, and either their website or Instagram page, are included in the attribution.
 
 [![Devil ray photo 1](/images/mobula-photo-1.jpg)](/images/mobula-photo-1.jpg)
 Chilean Devil Rays (*Mobula tarapacana*) swimming in the Azores.<br>
