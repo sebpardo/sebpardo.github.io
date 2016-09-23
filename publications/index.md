@@ -32,7 +32,7 @@ In press
      **Pardo, S. A.**, Kindsvater, H. K., Cuevas-Zimbrón, E., Sosa-Nishizaki, O., Pérez-Jiménez, J. C., Dulvy, N. K. 2016.
      Growth, productivity, and relative extinction risk of a data-sparse devil ray.
      *Scientific Reports*, 6, 33745. <http://www.nature.com/articles/srep33745><br>
-     Pre-print: [[ *BioRxiv*](http://dx.doi.org/10.1101/043885)]
+     Pre-print: [[*BioRxiv*](http://dx.doi.org/10.1101/043885)]
 
      <div data-badge-popover="left" data-badge-type="2" data-doi="10.1139/cjfas-2016-0069" data-hide-no-mentions="true" class="altmetric-embed"></div>
      **Pardo, S. A.**, Kindsvater, H. K., Reynolds, J. D., Dulvy, N. K. 2016.
