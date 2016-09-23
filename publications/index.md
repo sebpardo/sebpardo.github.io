@@ -17,18 +17,24 @@ image:
      population increase in the face of uncertainty.
      *ICES Journal of Marine Science*. In press.
 -->
-
+<!---
 In press 
 :    <div data-badge-popover="left" data-badge-type="2" data-doi="" data-hide-no-mentions="true" class="altmetric-embed"></div>
      **Pardo, S. A.**, Kindsvater, H. K., Cuevas-Zimbrón, E., Sosa-Nishizaki, O., Pérez-Jiménez, J. C., Dulvy, N. K. 2016.
      Devil in the details: growth, productivity, and extinction risk of a data-sparse devil ray.
      *Scientific Reports*. Accepted.  
      Pre-print available from *BioRxiv*: <http://dx.doi.org/10.1101/043885>
-
+--->
 <!-- BioRxiv altmetric <div data-badge-popover="top" data-badge-type="1" data-doi="10.1101/043885" data-hide-no-mentions="true" class="altmetric-embed"></div> -->
 
 2016 
-:    <div data-badge-popover="left" data-badge-type="2" data-doi="10.1139/cjfas-2016-0069" data-hide-no-mentions="true" class="altmetric-embed"></div>
+:    <div id="block_container"><div id="am" data-badge-popover="left" data-badge-type="2" data-doi="10.1038/srep33745" data-hide-no-mentions="true" class="altmetric-embed"></div><div id="oa"><i class="ai fa-fw ai-open-access fa-lg"></i></div></div>
+     **Pardo, S. A.**, Kindsvater, H. K., Cuevas-Zimbrón, E., Sosa-Nishizaki, O., Pérez-Jiménez, J. C., Dulvy, N. K. 2016.
+     Growth, productivity, and relative extinction risk of a data-sparse devil ray.
+     *Scientific Reports* 6, 33745. <br><http://www.nature.com/srep/articles/srep33745><br>
+     Pre-print: [[ *BioRxiv*](http://dx.doi.org/10.1101/043885)]
+
+     <div data-badge-popover="left" data-badge-type="2" data-doi="10.1139/cjfas-2016-0069" data-hide-no-mentions="true" class="altmetric-embed"></div>
      **Pardo, S. A.**, Kindsvater, H. K., Reynolds, J. D., Dulvy, N. K. 2016.
      Maximum intrinsic rate of population increase in sharks, rays, and chimaeras: the importance of survival to maturity.
      *Canadian Journal of Fisheries and Aquatic Sciences* 73:8, 1159-1163. <http://dx.doi.org/10.1139/cjfas-2016-0069><br>

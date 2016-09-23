@@ -2,7 +2,7 @@
 
 title:            Sebastián A. Pardo
 locale:           en_CA
-url:              http://sebpardo.github.io
+url:              http://localhost:4000 #http://sebpardo.github.io
 
 
 # Jekyll configuration
