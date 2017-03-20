@@ -1,12 +1,12 @@
 ---
-layout: page
+layout: post
 title: "Evolutionarily Distinct and Globally Endangered (EDGE) bird species"
 date: "March 12, 2017"
 excerpt: "EDGE species lists from your eBird data"
 output: 
   md_document:
     preserve_yaml: TRUE
-    variant: markdown_strict+tex_math_dollars
+    variant: markdown_strict+tex_math_dollars+backtick_code_blocks
 ---
 
 This idea behind this post was born after a conversation with Simon
@@ -26,14 +26,8 @@ What is ED?
 
 Evolutionary Distinctiveness (ED) is a measure of species' relative
 contributions to phylogenetic diversity. It is calculated by dividing
-the total phylogenetic diversity of a clade among all its members. I
-can't think of a better way to explain in than how it described in the
-paper:
-
-> This is achieved by applying a value to each branch equal to its
-> length divided by the number of species subtending the branch.
-
-So basically, the ED score of a species is the sum of all the branch
+the total phylogenetic diversity of a clade among all its members.
+Simply put, the ED score of a species is the sum of all the branch
 lengths to the root of the tree, each divided by the number of species
 each branch section is shared among. I'll illustrate this using four
 hypothetical species (A, B, C, and D). For each branch, the number above
@@ -53,8 +47,8 @@ list status is often turned into a quantitative measure by converting
 qualitative status into ordered integers, in this case denoted as GE:
 thus a species assess as “Least Concern" would have a GE score of 0, a
 "Near Threatened" species would be scored as a 1, and so on up to a
-species assessed as “Critically Endangered”, which would have a score of 4. 
-So using Evolutionary Distinctiveness (ED) and Global IUCN Red List
+species assessed as “Critically Endangered”, which would have a score of
+4. So using Evolutionary Distinctiveness (ED) and Global IUCN Red List
 status (GE) you can create a composite score of Evolutionary Distinctive
 and Globally Endangered (EDGE) species. The one proposed by Isaac et al.
 (2007) and subsequently used by Jetz et al. (2014) on birds is as
@@ -62,14 +56,12 @@ follows:
 
 $$EDGE = ln(ED + 1) + GE * ln(2)$$
 
-The data from Jetz et al. (2014) include the bird EDGE project which is
-freely accessible
-[here](http://www.edgeofexistence.org/birds/default.php) and the bird
-phylogenetic tree (also available [here](http://birdtree.org/));
-both these data sources (and the paper!) are the basis for these R
-functions and I would not have been able to create them without the
-massive effort that all the authors of that publication put into
-creating these trees and scores.
+The data from Jetz et al. (2014) include a bird phylogeny covering
+almost 10,000 species (available [here](http://birdtree.org/)) as well
+as associated EDGE scores and ranks (available
+[here](http://www.edgeofexistence.org/birds/default.php)); these data
+are the basis for these R functions and I would not have been able to
+create them without their work.
 
 The `myedge` and `mypd` functions
 ---------------------------------
@@ -78,9 +70,11 @@ To being playing with bird trees and your eBird data, you first have to
 install the `myebird` package from GitHub using
 `devtools::install_github` and load it in R:
 
-    # devtools::install_github("sebpardo/myebird")
-    library(dplyr) # for piping and data wrangling
-    library(myebird)
+``` r
+# devtools::install_github("sebpardo/myebird")
+library(dplyr) # for piping and data wrangling
+library(myebird)
+```
 
 There are three functions in this package that I've already written
 about [here](http://sebpardo.github.io/myebird/) (`ebirdclean`,
@@ -93,7 +87,9 @@ eBird: an email with a download link will be sent to you after pressing
 eBird!): <http://ebird.org/ebird/downloadMyData>. We then clean this csv
 using the `ebirdclean` function:
 
-    mybirds <- ebirdclean("MyEBirdData.csv")
+``` r
+mybirds <- ebirdclean("MyEBirdData.csv")
+```
 
 To obtain the ranks and EDGE scores of the species included in your
 eBird checklist, you can simply use the `myedge` function, whose first
@@ -101,8 +97,10 @@ argument is the output provided by `ebirdclean`, and the second argument
 is `edge.cutoff`, which is the cutoff for species to be shown in terms
 of ranking (defaults to returning all species):
 
-    myedgebirds <-myedge(mybirds, edge.cutoff = 500)
-    myedgebirds %>% select(-sciName)
+``` r
+myedgebirds <-myedge(mybirds, edge.cutoff = 500)
+myedgebirds %>% select(-sciName)
+```
 
     ## # A tibble: 12 × 4
     ##                     comName EDGE.Score EDGE.Rank
@@ -124,10 +122,12 @@ of ranking (defaults to returning all species):
 We can also easily subset to see the EDGE ranks and scores for a single
 country or even region:
 
-    mybirds %>%
-      filter(Country == "Chile") %>%
-      myedge(edge.cutoff = 1000) %>%
-      select(-sciName)
+``` r
+mybirds %>%
+  filter(Country == "Chile") %>%
+  myedge(edge.cutoff = 1000) %>%
+  select(-sciName)
+```
 
     ## # A tibble: 15 × 4
     ##                         comName EDGE.Score EDGE.Rank
@@ -149,10 +149,12 @@ country or even region:
     ## 15              Royal Albatross   3.486477       931
     ## # ... with 1 more variables: sciName.edge <chr>
 
-    mybirds %>%
-      filter(County == "Metro Vancouver") %>%
-      myedge(edge.cutoff = 1000) %>%
-      select(-sciName)
+``` r
+mybirds %>%
+  filter(County == "Metro Vancouver") %>%
+  myedge(edge.cutoff = 1000) %>%
+  select(-sciName)
+```
 
     ## # A tibble: 6 × 4
     ##                  comName EDGE.Score EDGE.Rank             sciName.edge
@@ -167,10 +169,12 @@ country or even region:
 `myedge` also can provide a separate data frame for each country when
 used in conjunction with `dplyr::do`:
 
-    mybirds %>% 
-      group_by(Country) %>% 
-      do(myedge(., edge.cutoff = 500)) %>%
-      select(-sciName)
+``` r
+mybirds %>% 
+  group_by(Country) %>% 
+  do(myedge(., edge.cutoff = 500)) %>%
+  select(-sciName)
+```
 
     ## Source: local data frame [17 x 5]
     ## Groups: Country [6]
@@ -244,8 +248,10 @@ phylogeny. It is very straightforward to run, however it averages values
 across 20 very large trees, and therefore is a bit slow to run
 (shouldn't take more than a minute though):
 
-    mypdvalues <- mypd(mybirds)
-    mypdvalues
+``` r
+mypdvalues <- mypd(mybirds)
+mypdvalues
+```
 
     ## # A tibble: 1 × 3
     ##    mean_pd median_pd    sd_pd
@@ -258,9 +264,11 @@ of evolution!
 
 As with the `myedge` function, you can look at PD values by country:
 
-    mybirds %>%
-      group_by(Country) %>%
-      do(mypd(.))
+``` r
+mybirds %>%
+  group_by(Country) %>%
+  do(mypd(.))
+```
 
     ## Source: local data frame [16 x 4]
     ## Groups: Country [16]
@@ -284,12 +292,15 @@ As with the `myedge` function, you can look at PD values by country:
     ## 15         United States of America 6125.7561 6052.1918 336.01728
     ## 16                          Vanuatu 1282.8242 1281.9231  80.43118
 
-and even by county/region within a state!
+and even by county/region within a state or province (in this example,
+regions within British Columbia):
 
-    mybirds %>%
-      filter(State.Province == "CA-BC") %>%
-      group_by(County) %>%
-      do(mypd(.))
+``` r
+mybirds %>%
+  filter(State.Province == "CA-BC") %>%
+  group_by(County) %>%
+  do(mypd(.))
+```
 
     ## Source: local data frame [15 x 4]
     ## Groups: County [15]
@@ -320,7 +331,9 @@ your eBird checklist. You can peruse it independently, as it shows
 updated scientific names, common names, and EDGE scores and ranks as
 reported by the Jetz et al. paper:
 
-    edge
+``` r
+edge
+```
 
     ## # A tibble: 9,993 × 5
     ##                    sciName                       comName EDGE.Score
