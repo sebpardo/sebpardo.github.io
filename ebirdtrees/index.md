@@ -47,8 +47,8 @@ list status is often turned into a quantitative measure by converting
 qualitative status into ordered integers, in this case denoted as GE:
 thus a species assess as “Least Concern" would have a GE score of 0, a
 "Near Threatened" species would be scored as a 1, and so on up to a
-species assessed as “Critically Endangered”, which would have a score of
-4. So using Evolutionary Distinctiveness (ED) and Global IUCN Red List
+species assessed as “Critically Endangered”, which would have a score of 4. 
+So using Evolutionary Distinctiveness (ED) and Global IUCN Red List
 status (GE) you can create a composite score of Evolutionary Distinctive
 and Globally Endangered (EDGE) species. The one proposed by Isaac et al.
 (2007) and subsequently used by Jetz et al. (2014) on birds is as
