@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Evolutionarily Distinct and Globally Endangered (EDGE) bird species"
-date: "March 12, 2017"
-excerpt: "EDGE species lists from your eBird data"
+date: "March 21, 2017"
+excerpt: "PD, ED, and EDGE scores from your eBird data"
 output: 
   md_document:
     preserve_yaml: TRUE
@@ -26,20 +26,22 @@ What is ED?
 
 Evolutionary Distinctiveness (ED) is a measure of species' relative
 contributions to phylogenetic diversity. It is calculated by dividing
-the total phylogenetic diversity of a clade among all its members.
-Simply put, the ED score of a species is the sum of all the branch
-lengths to the root of the tree, each divided by the number of species
-each branch section is shared among. I'll illustrate this using four
-hypothetical species (A, B, C, and D). For each branch, the number above
-represents the length of the branch (in million years), while the number
-below the branch shows the number of species that share that branch, so
-ED is the sum of all these fractions from the root of the tree to each
-tip (Figure is adapted from Isaac et al. \[2007\]):
+the total phylogenetic diversity of a clade among all its members. David
+Redding, a former PhD student at SFU, came up with the idea of ED for
+his M.Sc. thesis at the University of East Anglia. Simply put, the ED
+score of a species is the sum of all the branch lengths to the root of
+the tree, each divided by the number of species each branch section is
+shared among. I'll illustrate this using four hypothetical species (A,
+B, C, and D). For each branch, the number above represents the length of
+the branch (in million years), while the number below the branch shows
+the number of species that share that branch, so ED is the sum of all
+these fractions from the root of the tree to each tip (Figure is adapted
+from Isaac et al. \[2007\]):
 
 ![](/figures/edge-example-1-1.png)
 
 ED is a pretty straightforward metric that can help identify individual
-(perhaps flagship?) species of high evolutionary distinctiveness. This
+(perhaps flagship?) species of high evolutionary distinctiveness.This
 metric can be combined with a threat score based on the [Red List
 status](http://www.iucnredlist.org/) of each species which are compiled
 by the International Union for the Conservation of Nature (IUCN). Red
@@ -47,12 +49,12 @@ list status is often turned into a quantitative measure by converting
 qualitative status into ordered integers, in this case denoted as GE:
 thus a species assess as “Least Concern" would have a GE score of 0, a
 "Near Threatened" species would be scored as a 1, and so on up to a
-species assessed as “Critically Endangered”, which would have a score of 4. 
-So using Evolutionary Distinctiveness (ED) and Global IUCN Red List
-status (GE) you can create a composite score of Evolutionary Distinctive
-and Globally Endangered (EDGE) species. The one proposed by Isaac et al.
-(2007) and subsequently used by Jetz et al. (2014) on birds is as
-follows:
+species assessed as “Critically Endangered”, which would have a score of
+4. Thus, by using Evolutionary Distinctiveness (ED) and Global IUCN Red
+List status (GE) you can create a composite score of Evolutionary
+Distinctive and Globally Endangered (EDGE) species. The one proposed by
+Isaac et al. (2007) and subsequently used by Jetz et al. (2014) on birds
+is as follows:
 
 $$EDGE = ln(ED + 1) + GE * ln(2)$$
 
@@ -74,6 +76,7 @@ install the `myebird` package from GitHub using
 # devtools::install_github("sebpardo/myebird")
 library(dplyr) # for piping and data wrangling
 library(myebird)
+library(ggplot2)
 ```
 
 There are three functions in this package that I've already written
@@ -91,36 +94,37 @@ using the `ebirdclean` function:
 mybirds <- ebirdclean("MyEBirdData.csv")
 ```
 
-To obtain the ranks and EDGE scores of the species included in your
-eBird checklist, you can simply use the `myedge` function, whose first
-argument is the output provided by `ebirdclean`, and the second argument
-is `edge.cutoff`, which is the cutoff for species to be shown in terms
-of ranking (defaults to returning all species):
+To obtain ED scores as well as EDGE scores and ranks of the species
+included in your eBird checklist, you can simply use the `myedge`
+function, whose first argument is the output provided by `ebirdclean`,
+and the second argument is `edge.cutoff`, which is the cutoff for
+species to be shown in terms of ranking (defaults to returning all
+species):
 
 ``` r
 myedgebirds <-myedge(mybirds, edge.cutoff = 500)
 myedgebirds %>% select(-sciName)
 ```
 
-    ## # A tibble: 12 × 4
-    ##                     comName EDGE.Score EDGE.Rank
-    ##                       <chr>      <dbl>     <int>
-    ## 1    Peruvian Diving-Petrel   5.461065        29
-    ## 2  Australian Painted-Snipe   5.408126        32
-    ## 3             Andean Condor   4.493171       228
-    ## 4          Marbled Murrelet   4.363382       277
-    ## 5       Hutton's Shearwater   4.313888       293
-    ## 6           Andean Flamingo   4.212863       339
-    ## 7              Magpie Goose   4.153803       372
-    ## 8                    Osprey   4.044160       431
-    ## 9                Great Knot   4.017159       451
-    ## 10         Beach Thick-knee   4.012094       459
-    ## 11   Yellow-nosed Albatross   3.986054       471
-    ## 12        Providence Petrel   3.943059       500
+    ## # A tibble: 12 × 5
+    ##                     comName  ED.Score EDGE.Score EDGE.Rank
+    ##                       <chr>     <dbl>      <dbl>     <int>
+    ## 1    Peruvian Diving-Petrel 28.418480   5.461065        29
+    ## 2  Australian Painted-Snipe 26.901620   5.408126        32
+    ## 3             Andean Condor 43.702267   4.493171       228
+    ## 4          Marbled Murrelet  8.815285   4.363382       277
+    ## 5       Hutton's Shearwater  8.341314   4.313888       293
+    ## 6           Andean Flamingo 15.887414   4.212863       339
+    ## 7              Magpie Goose 62.675689   4.153803       372
+    ## 8                    Osprey 56.063247   4.044160       431
+    ## 9                Great Knot 12.885775   4.017159       451
+    ## 10         Beach Thick-knee 26.631221   4.012094       459
+    ## 11   Yellow-nosed Albatross  5.730249   3.986054       471
+    ## 12        Providence Petrel 11.894030   3.943059       500
     ## # ... with 1 more variables: sciName.edge <chr>
 
-We can also easily subset to see the EDGE ranks and scores for a single
-country or even region:
+We can also easily subset to see the ED and EDGE ranks and scores for a
+single country or even region:
 
 ``` r
 mybirds %>%
@@ -129,24 +133,24 @@ mybirds %>%
   select(-sciName)
 ```
 
-    ## # A tibble: 15 × 4
-    ##                         comName EDGE.Score EDGE.Rank
-    ##                           <chr>      <dbl>     <int>
-    ## 1        Peruvian Diving-Petrel   5.461065        29
-    ## 2                 Andean Condor   4.493171       228
-    ## 3               Andean Flamingo   4.212863       339
-    ## 4        Black-browed Albatross   3.926469       509
-    ## 5     Diademed Sandpiper-Plover   3.903501       525
-    ## 6              Peruvian Pelican   3.863744       553
-    ## 7               Westland Petrel   3.806882       599
-    ## 8              Chilean Flamingo   3.739600       657
-    ## 9          White-chinned Petrel   3.685432       704
-    ## 10             Humboldt Penguin   3.620161       754
-    ## 11            Pied-billed Grebe   3.610822       763
-    ## 12 South American Painted-Snipe   3.570780       805
-    ## 13                Black Vulture   3.537775       858
-    ## 14             James's Flamingo   3.519716       875
-    ## 15              Royal Albatross   3.486477       931
+    ## # A tibble: 15 × 5
+    ##                         comName  ED.Score EDGE.Score EDGE.Rank
+    ##                           <chr>     <dbl>      <dbl>     <int>
+    ## 1        Peruvian Diving-Petrel 28.418480   5.461065        29
+    ## 2                 Andean Condor 43.702267   4.493171       228
+    ## 3               Andean Flamingo 15.887414   4.212863       339
+    ## 4        Black-browed Albatross  5.340944   3.926469       509
+    ## 5     Diademed Sandpiper-Plover 23.787857   3.903501       525
+    ## 6              Peruvian Pelican 22.821709   3.863744       553
+    ## 7               Westland Petrel 10.252474   3.806882       599
+    ## 8              Chilean Flamingo 20.040577   3.739600       657
+    ## 9          White-chinned Petrel  8.965589   3.685432       704
+    ## 10             Humboldt Penguin  8.335894   3.620161       754
+    ## 11            Pied-billed Grebe 35.996441   3.610822       763
+    ## 12 South American Painted-Snipe 34.544290   3.570780       805
+    ## 13                Black Vulture 33.390317   3.537775       858
+    ## 14             James's Flamingo 15.887414   3.519716       875
+    ## 15              Royal Albatross  7.167664   3.486477       931
     ## # ... with 1 more variables: sciName.edge <chr>
 
 ``` r
@@ -156,15 +160,16 @@ mybirds %>%
   select(-sciName)
 ```
 
-    ## # A tibble: 6 × 4
-    ##                  comName EDGE.Score EDGE.Rank             sciName.edge
-    ##                    <chr>      <dbl>     <int>                    <chr>
-    ## 1       Marbled Murrelet   4.363382       277 Brachyramphus_marmoratus
-    ## 2                 Osprey   4.044160       431        Pandion_haliaetus
-    ## 3      Red-throated Loon   3.921666       511           Gavia_stellata
-    ## 4      Pied-billed Grebe   3.610822       763      Podilymbus_podiceps
-    ## 5       Long-tailed Duck   3.589455       786        Clangula_hyemalis
-    ## 6 Golden-crowned Kinglet   3.522237       873          Regulus_satrapa
+    ## # A tibble: 6 × 5
+    ##                  comName  ED.Score EDGE.Score EDGE.Rank
+    ##                    <chr>     <dbl>      <dbl>     <int>
+    ## 1       Marbled Murrelet  8.815285   4.363382       277
+    ## 2                 Osprey 56.063247   4.044160       431
+    ## 3      Red-throated Loon 49.484481   3.921666       511
+    ## 4      Pied-billed Grebe 35.996441   3.610822       763
+    ## 5       Long-tailed Duck  8.053587   3.589455       786
+    ## 6 Golden-crowned Kinglet 32.860078   3.522237       873
+    ## # ... with 1 more variables: sciName.edge <chr>
 
 `myedge` also can provide a separate data frame for each country when
 used in conjunction with `dplyr::do`:
@@ -176,29 +181,29 @@ mybirds %>%
   select(-sciName)
 ```
 
-    ## Source: local data frame [17 x 5]
+    ## Source: local data frame [17 x 6]
     ## Groups: Country [6]
     ## 
-    ##                     Country                  comName EDGE.Score EDGE.Rank
-    ##                       <chr>                    <chr>      <dbl>     <int>
-    ## 1                 Australia Australian Painted-Snipe   5.408126        32
-    ## 2                 Australia      Hutton's Shearwater   4.313888       293
-    ## 3                 Australia             Magpie Goose   4.153803       372
-    ## 4                 Australia                   Osprey   4.044160       431
-    ## 5                 Australia               Great Knot   4.017159       451
-    ## 6                 Australia         Beach Thick-knee   4.012094       459
-    ## 7                 Australia   Yellow-nosed Albatross   3.986054       471
-    ## 8                 Australia        Providence Petrel   3.943059       500
-    ## 9                    Canada         Marbled Murrelet   4.363382       277
-    ## 10                   Canada                   Osprey   4.044160       431
-    ## 11                    Chile   Peruvian Diving-Petrel   5.461065        29
-    ## 12                    Chile            Andean Condor   4.493171       228
-    ## 13                    Chile          Andean Flamingo   4.212863       339
-    ## 14               Costa Rica                   Osprey   4.044160       431
-    ## 15                Nicaragua                   Osprey   4.044160       431
-    ## 16 United States of America         Marbled Murrelet   4.363382       277
-    ## 17 United States of America                   Osprey   4.044160       431
-    ## # ... with 1 more variables: sciName.edge <chr>
+    ##                     Country                  comName  ED.Score EDGE.Score
+    ##                       <chr>                    <chr>     <dbl>      <dbl>
+    ## 1                 Australia Australian Painted-Snipe 26.901620   5.408126
+    ## 2                 Australia      Hutton's Shearwater  8.341314   4.313888
+    ## 3                 Australia             Magpie Goose 62.675689   4.153803
+    ## 4                 Australia                   Osprey 56.063247   4.044160
+    ## 5                 Australia               Great Knot 12.885775   4.017159
+    ## 6                 Australia         Beach Thick-knee 26.631221   4.012094
+    ## 7                 Australia   Yellow-nosed Albatross  5.730249   3.986054
+    ## 8                 Australia        Providence Petrel 11.894030   3.943059
+    ## 9                    Canada         Marbled Murrelet  8.815285   4.363382
+    ## 10                   Canada                   Osprey 56.063247   4.044160
+    ## 11                    Chile   Peruvian Diving-Petrel 28.418480   5.461065
+    ## 12                    Chile            Andean Condor 43.702267   4.493171
+    ## 13                    Chile          Andean Flamingo 15.887414   4.212863
+    ## 14               Costa Rica                   Osprey 56.063247   4.044160
+    ## 15                Nicaragua                   Osprey 56.063247   4.044160
+    ## 16 United States of America         Marbled Murrelet  8.815285   4.363382
+    ## 17 United States of America                   Osprey 56.063247   4.044160
+    ## # ... with 2 more variables: EDGE.Rank <int>, sciName.edge <chr>
 
 Problems with ED
 ----------------
@@ -323,6 +328,54 @@ mybirds %>%
     ## 14         Sunshine Coast 1528.9859 1511.2885  77.00035
     ## 15        Thompson-Nicola 2503.5555 2483.0836 147.10740
 
+Are ED and PD correlated?
+-------------------------
+
+Arne Mooers, who is a co-author of the bird tree paper, mentioned to me
+that there is often a strong correlation between ED and PD across
+species lists. With these two functions, it is easy to look at the
+relationship between PD and sum of EDs for a bunch of different lists,
+for example, ED and PD values by country:
+
+``` r
+edcountry <- mybirds %>% 
+  group_by(Country) %>% 
+  do(myedge(.)) %>%
+  select(-sciName) %>%
+  summarise(EDs = sum(ED.Score), n = n())
+
+pdcountry <- mybirds %>%
+  group_by(Country) %>%
+  do(mypd(.))
+
+edpdcountry <- left_join(edcountry, pdcountry, by = "Country")
+
+m <- lm(EDs ~ median_pd, edpdcountry)
+rout <- list(paste('Fitted model: ', round(coef(m)[1], 3), ' + ',
+                               round(coef(m)[2], 3), '* PD', sep = ''),
+              paste('R^2 == ', round(summary(m)[['r.squared']], 3),
+                    sep = '')) 
+
+
+ggplot(data = edpdcountry, aes(median_pd, EDs, size = n)) + 
+  geom_point(color = "grey60") +
+  ggtitle("ED and PD by country") +
+  geom_smooth(method = "lm", show.legend = FALSE) +
+    geom_text(aes(label = Country), size = 4, 
+            nudge_y = -100, check_overlap = TRUE) +
+  geom_label(aes(x = 500, y = 3000, label = rout[[1]]), hjust = 0,
+             size = 5,  inherit.aes = FALSE) +
+  geom_label(aes(x = 500, y = 2600, label = rout[[2]]), hjust = 0, size = 5,
+            inherit.aes = FALSE, parse = TRUE) 
+```
+
+![](/figures/edpdbycountry-1.png)
+
+At least in the example above, PD and ED are strongly correlated, with
+an $R^2$ of 0.98 and a coefficient of 0.45, which indicates that the sum
+of ED scores for a group of species is roughly half of the PD covered by
+that same group.
+
 ------------------------------------------------------------------------
 
 Lastly, the `edge` object provides a data frame that is useful for the
@@ -335,21 +388,21 @@ reported by the Jetz et al. paper:
 edge
 ```
 
-    ## # A tibble: 9,993 × 5
-    ##                    sciName                       comName EDGE.Score
-    ##                      <chr>                         <chr>      <dbl>
-    ## 1       Pseudibis gigantea                    Giant Ibis   6.826561
-    ## 2        Aegotheles savesi New Caledonian Owlet-nightjar   6.492502
-    ## 3  Gymnogyps californianus             California Condor   6.310364
-    ## 4      Strigops habroptila                        Kakapo   6.280292
-    ## 5      Rhynochetos jubatus                          Kagu   6.111589
-    ## 6  Houbaropsis bengalensis               Bengal Florican   6.002360
-    ## 7          Athene blewitti                  Forest Owlet   5.994838
-    ## 8    Pithecophaga jefferyi              Philippine Eagle   5.976851
-    ## 9         Fregata andrewsi  Christmas Island Frigatebird   5.937143
-    ## 10     Carpococcyx viridis        Sumatran Ground-cuckoo   5.870627
-    ## # ... with 9,983 more rows, and 2 more variables: EDGE.Rank <int>,
-    ## #   sciName.edge <chr>
+    ## # A tibble: 9,993 × 6
+    ##                    sciName                       comName ED.Score
+    ##                      <chr>                         <chr>    <dbl>
+    ## 1       Pseudibis gigantea                    Giant Ibis 56.62592
+    ## 2        Aegotheles savesi New Caledonian Owlet-nightjar 40.26083
+    ## 3  Gymnogyps californianus             California Condor 33.39032
+    ## 4      Strigops habroptila                        Kakapo 32.37154
+    ## 5      Rhynochetos jubatus                          Kagu 55.38186
+    ## 6  Houbaropsis bengalensis               Bengal Florican 24.27388
+    ## 7          Athene blewitti                  Forest Owlet 24.08449
+    ## 8    Pithecophaga jefferyi              Philippine Eagle 23.63732
+    ## 9         Fregata andrewsi  Christmas Island Frigatebird 22.67818
+    ## 10     Carpococcyx viridis        Sumatran Ground-cuckoo 21.15445
+    ## # ... with 9,983 more rows, and 3 more variables: EDGE.Score <dbl>,
+    ## #   EDGE.Rank <int>, sciName.edge <chr>
 
 The species with the highest EDGE score is the Giant Ibis, which is
 classified as [Critically
@@ -357,11 +410,10 @@ Endangered](http://www.iucnredlist.org/details/22697536/0) by the IUCN
 (GE = 5) and also has the highest ED score among all Critically
 Endangered bird species.
 
-It is **very important** to point out that there are lots and lots of
-discrepancies between the taxonomy used in the Jetz paper and that one
-used in eBird; the latter even gets updated yearly! I've wrangled both
-species lists to try and match as many species as possible (you can see
-the code
+**Important note:** There are many discrepancies between the taxonomy
+used in the Jetz paper and that one used in eBird; the latter even gets
+updated yearly! I've wrangled both species lists to try and match as
+many species as possible (you can see the code
 [here](https://github.com/sebpardo/myebird/blob/master/data-raw/edge-data-clean.R)),
 however the coverage is not perfect as there are many species which have
 been recently split and can't be matched either by common or scientific
