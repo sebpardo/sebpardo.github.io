@@ -374,7 +374,7 @@ ggplot(data = edpdcountry, aes(median_pd, EDs, size = n)) +
 ![](/figures/edpdbycountry-1.png)
 
 At least in the example above, PD and ED are strongly correlated, with
-an $R^2$ of 0.98 and a coefficient of 0.45, which indicates that the sum
+an $$R^2$$ of 0.98 and a coefficient of 0.45, which indicates that the sum
 of ED scores for a group of species is roughly half of the PD covered by
 that same group.
 
