@@ -338,24 +338,26 @@ relationship between PD and sum of EDs for a bunch of different lists,
 for example, ED and PD values by country:
 
 ``` r
+# calculating ED by country
 edcountry <- mybirds %>% 
   group_by(Country) %>% 
   do(myedge(.)) %>%
   select(-sciName) %>%
   summarise(EDs = sum(ED.Score), n = n())
 
+# calculating PD by country
 pdcountry <- mybirds %>%
   group_by(Country) %>%
   do(mypd(.))
 
 edpdcountry <- left_join(edcountry, pdcountry, by = "Country")
 
+# fitting linear model and extracting coefficients to print on plot
 m <- lm(EDs ~ median_pd, edpdcountry)
 rout <- list(paste('Fitted model: ', round(coef(m)[1], 3), ' + ',
                                round(coef(m)[2], 3), '* PD', sep = ''),
               paste('R^2 == ', round(summary(m)[['r.squared']], 3),
                     sep = '')) 
-
 
 ggplot(data = edpdcountry, aes(median_pd, EDs, size = n)) + 
   geom_point(color = "grey60") +
