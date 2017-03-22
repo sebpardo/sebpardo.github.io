@@ -12,15 +12,14 @@ output:
 
 The idea behind this post was born after a conversation with Simon
 Valdez-Juarez, a fellow graduate student at SFU. He mentioned an idea he had
-for creating a [Shiny](https://www.rstudio.com/products/shiny/) web app that allowed people to see the evolutionary
-distinctiveness of bird species in their eBird checklists. Given that I
-have played around with wrangling eBird checklists to display summary
-stats of sightings by location and year (the
-[`myebird`](https://github.com/sebpardo/myebird/) package, see a
-previous blog post about it [here](http://sebpardo.github.io/myebird/)),
-we decided to join forces to create this website. The
-functions introduced below will be the backbone of such a
-project.
+for creating a [Shiny](https://www.rstudio.com/products/shiny/) web app that
+allows people to see the evolutionary distinctiveness of bird species in their
+eBird checklists. Given that I have played around with wrangling eBird
+checklists to display summary stats of sightings by location and year (the
+[`myebird`](https://github.com/sebpardo/myebird/) package, see a previous blog
+post about it [here](http://sebpardo.github.io/myebird/)), we decided to join
+forces to create this website. The functions introduced below will be the
+backbone of such a project.
 
 What is ED?
 -----------
