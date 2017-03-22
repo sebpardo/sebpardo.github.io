@@ -3,22 +3,23 @@ layout: post
 title: "Evolutionarily Distinct and Globally Endangered (EDGE) bird species"
 date: "March 21, 2017"
 excerpt: "PD, ED, and EDGE scores from your eBird data"
+modified: 2017-03-22 
 output: 
   md_document:
     preserve_yaml: TRUE
     variant: markdown_strict+tex_math_dollars+backtick_code_blocks
 ---
 
-This idea behind this post was born after a conversation with Simon
-Valdez, a fellow graduate student at SFU. He mentioned an idea he had
-for creating a website that allowed people to see the evolutionary
+The idea behind this post was born after a conversation with Simon
+Valdez-Juarez, a fellow graduate student at SFU. He mentioned an idea he had
+for creating a [Shiny](https://www.rstudio.com/products/shiny/) web app that allowed people to see the evolutionary
 distinctiveness of bird species in their eBird checklists. Given that I
 have played around with wrangling eBird checklists to display summary
 stats of sightings by location and year (the
 [`myebird`](https://github.com/sebpardo/myebird/) package, see a
 previous blog post about it [here](http://sebpardo.github.io/myebird/)),
-and we decided to join forces to try and create this website. The
-functions introduced below will hopefully be the backbone of such a
+we decided to join forces to create this website. The
+functions introduced below will be the backbone of such a
 project.
 
 What is ED?
@@ -41,26 +42,24 @@ from Isaac et al. \[2007\]):
 ![](/figures/edge-example-1-1.png)
 
 ED is a pretty straightforward metric that can help identify individual
-(perhaps flagship?) species of high evolutionary distinctiveness.This
-metric can be combined with a threat score based on the [Red List
-status](http://www.iucnredlist.org/) of each species which are compiled
-by the International Union for the Conservation of Nature (IUCN). Red
-list status is often turned into a quantitative measure by converting
-qualitative status into ordered integers, in this case denoted as GE:
-thus a species assess as “Least Concern" would have a GE score of 0, a
-"Near Threatened" species would be scored as a 1, and so on up to a
-species assessed as “Critically Endangered”, which would have a score of
-4. Thus, by using Evolutionary Distinctiveness (ED) and Global IUCN Red
-List status (GE) you can create a composite score of Evolutionary
-Distinctive and Globally Endangered (EDGE) species. The one proposed by
-Isaac et al. (2007) and subsequently used by Jetz et al. (2014) on birds
-is as follows:
+(perhaps flagship?) species of high evolutionary distinctiveness.This metric
+can be combined with a threat score based on the [Red List
+status](http://www.iucnredlist.org/) compiled by the International Union for
+the Conservation of Nature (IUCN). The Red List status of each species can be converted to
+a quantitative measure by converting qualitative status into ordered integers,
+in this case denoted as GE: thus a species assess as “Least Concern" would have
+a GE score of 0, a "Near Threatened" species would be scored as a 1, and so on
+up to a species assessed as “Critically Endangered”, which would have a score
+of 4. Thus, by using Evolutionary Distinctiveness (ED) and Global IUCN Red List
+status (GE) you can create a composite score of Evolutionary Distinctive and
+Globally Endangered (EDGE) species. The one proposed by Isaac et al. (2007) and
+subsequently used by Jetz et al. (2014) on birds is as follows:
 
 $$EDGE = ln(ED + 1) + GE * ln(2)$$
 
 The data from Jetz et al. (2014) include a bird phylogeny covering
-almost 10,000 species (available [here](http://birdtree.org/)) as well
-as associated EDGE scores and ranks (available
+almost 10,000 species (available [here](http://birdtree.org/)) and their 
+associated EDGE scores and ranks (available
 [here](http://www.edgeofexistence.org/birds/default.php)); these data
 are the basis for these R functions and I would not have been able to
 create them without their work.
@@ -73,7 +72,7 @@ install the `myebird` package from GitHub using
 `devtools::install_github` and load it in R:
 
 ``` r
-# devtools::install_github("sebpardo/myebird")
+devtools::install_github("sebpardo/myebird")
 library(dplyr) # for piping and data wrangling
 library(myebird)
 library(ggplot2)
@@ -88,7 +87,7 @@ To use these functions, we first need to download all our data from
 eBird: an email with a download link will be sent to you after pressing
 "Sumbit" in the following eBird link (make sure you're logged in to
 eBird!): <http://ebird.org/ebird/downloadMyData>. We then clean this csv
-using the `ebirdclean` function:
+file using the `ebirdclean` function:
 
 ``` r
 mybirds <- ebirdclean("MyEBirdData.csv")
@@ -210,11 +209,11 @@ Problems with ED
 
 As it has been previously pointed out, there are some issues with
 composite indices of evolutionary distinctiveness. One important problem
-with ED estimates is that they are can be very sensitive to splits or
+with ED estimates is that they can be very sensitive to splits or
 lumps at the species level. Let's take the hypothetical example
 presented in the tree above, but this time using a taxonomy that
 considers species A to actually be three separate species (A, E, and F)
-which split around 0.2 my before present:
+which split around 0.2 million years (MY) before present:
 
 ![](/figures/edge-example-2-1.png)
 
@@ -234,7 +233,7 @@ four species, if we wanted to calculate PD for species B and C:
 
 ![](/figures/pd-example-1-1.png)
 
-Our estimate of PD for species B and C is 4 my of evolution. Now, if we
+Our estimate of PD for species B and C is 4 MY of evolution. Now, if we
 also include species D, our estimate of PD will increase only slightly
 as species C and D are closely related.
 
@@ -441,7 +440,7 @@ This package is still a work in progress, so if you find any
 issues/bugs/problems please [let me
 know](https://github.com/sebpardo/myebird/issues). There are a few more
 features I'd like to add (e.g., graphing functions, plotting location of
-sightings on a map, to name a few); any ideas are welcome!
+sightings on a map, to name a few); but any ideas are welcome!
 
 References
 ----------
