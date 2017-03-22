@@ -407,7 +407,7 @@ edge
 The species with the highest EDGE score is the Giant Ibis, which is
 classified as [Critically
 Endangered](http://www.iucnredlist.org/details/22697536/0) by the IUCN
-(GE = 5) and also has the highest ED score among all Critically
+(GE = 4) and also has the highest ED score among all Critically
 Endangered bird species.
 
 **Important note:** There are many discrepancies between the taxonomy
