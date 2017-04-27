@@ -69,7 +69,7 @@ Pierce, S. J., **Pardo, S. A.**, Bennett, M. B. 2009. Reproduction of the blue-s
 
 ## R packages
 
-2016
+2017
 :      Maia, R., Chamberlain, S., Teucher, A., **Pardo, S.** 2017. rebird: R Client for the eBird Database of Bird Observations. R package version 0.4.0. Retrieved from 
        <http://cran.r-project.org/package=rebird>
        <br>[![rstudio mirror downloads](http://cranlogs.r-pkg.org/badges/rebird)](https://github.com/metacran/cranlogs.app)
