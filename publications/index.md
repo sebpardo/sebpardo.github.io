@@ -7,7 +7,7 @@ tags:
 image:
   feature: simon-hammer-thin.jpg
   credit: Simon J. Pierce Photography
-  creditlink: http://www.simonjpierce.com/
+  creditlink: https://www.simonjpierce.com/
 ---
 <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>  
 <!--
