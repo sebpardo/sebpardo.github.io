@@ -9,7 +9,7 @@ image:
   creditlink: https://www.simonjpierce.com/
 ---
 
-I have recently finished my PhD working with [Nick Dulvy](https://www.dulvy.com) at Simon Fraser University in Canada. 
+I have recently finished my PhD working with [Nick Dulvy](http://www.dulvy.com) at Simon Fraser University in Canada. 
 My PhD research was focused on understanding the mechanisms that underpin relationships among life histories in cartilaginous fishes, and  using these relationships to develop simple methods for predicting biological traits and extinction risk that rely on readily-available data.
 
 
@@ -44,11 +44,11 @@ Dulvy, N. K., **Pardo, S. A.**, Simpfendorfer, C. A., Carlson, J. K. 2014. Diagn
 
 ### IUCN Red List assessments
 
-I have also contributed to the international effort to assess the conservation status of all known chondrichthyan species. Through the [Shark Specialist Group (SSG)](https://www.iucnssg.org/) of the International Union for the Conservation of Nature (IUCN), I have co-authored multiple Red List Assessments, a process which consists on collating all the available information on population trends, ecology, threats, and conservation for each species being assessed.
+I have also contributed to the international effort to assess the conservation status of all known chondrichthyan species. Through the [Shark Specialist Group (SSG)](http://www.iucnssg.org/) of the International Union for the Conservation of Nature (IUCN), I have co-authored multiple Red List Assessments, a process which consists on collating all the available information on population trends, ecology, threats, and conservation for each species being assessed.
 
-**Pardo, S. A.**, Walls, R. H. L. & Bigman, J. S. 2016. *Mobula tarapacana*. The IUCN Red List of Threatened Species 2016: e.T60199A100016302. Downloaded on 08 November 2016. <https://www.iucnredlist.org/details/60200/0>
+**Pardo, S. A.**, Walls, R. H. L. & Bigman, J. S. 2016. *Mobula tarapacana*. The IUCN Red List of Threatened Species 2016: e.T60199A100016302. Downloaded on 08 November 2016. <http://www.iucnredlist.org/details/60200/0>
 
-Walls, R. H. L., **Pardo, S. A.**, Bigman, J. S., Clark, T. B., Smith, W. D. & Bizzarro, J. J. 2016. *Mobula thurstoni*. The IUCN Red List of Threatened Species 2016: e.T60200A100016879. Downloaded on 08 November 2016. <https://www.iucnredlist.org/details/60199/0>
+Walls, R. H. L., **Pardo, S. A.**, Bigman, J. S., Clark, T. B., Smith, W. D. & Bizzarro, J. J. 2016. *Mobula thurstoni*. The IUCN Red List of Threatened Species 2016: e.T60200A100016879. Downloaded on 08 November 2016. <http://www.iucnredlist.org/details/60199/0>
 
 ----
 
