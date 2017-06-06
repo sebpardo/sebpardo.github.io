@@ -32,7 +32,8 @@ Some biological traits, such as growth rates, as well as many demographic parame
 
 I am interested in exploring relationships among shark and ray life histories, how they vary, and what traits can explain their variation. Better understanding these relationships gives us a glimpse into the potential evolutionary mechanisms that have shaped them, and can help to create simple models to predict the biology and vulnerability of data poor species.
 
-I am also passionate about conservation, and am keen to improve our current knowledge gap within elasmobranchs, as 46% of the are assessed as Data Deficient under the IUCN. In many cases, the usual methods of studying the biology of a species using lethal sampling are not feasible, such as species that are extremely rare, hard to collect, or listed as Critically Endangered.
+<!--I am also passionate about conservation, and am keen to improve our current knowledge gap within elasmobranchs, as 46% of the are assessed as Data Deficient under the IUCN. In many cases, the usual methods of studying the biology of a species using lethal sampling are not feasible, such as species that are extremely rare, hard to collect, or listed as Critically Endangered.
+-->
 
 ### Extinction risk of data poor species
 
