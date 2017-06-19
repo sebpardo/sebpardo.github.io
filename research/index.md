@@ -46,9 +46,9 @@ Dulvy, N. K., **Pardo, S. A.**, Simpfendorfer, C. A., Carlson, J. K. 2014. Diagn
 
 I have also contributed to the international effort to assess the conservation status of all known chondrichthyan species. Through the [Shark Specialist Group (SSG)](http://www.iucnssg.org/) of the International Union for the Conservation of Nature (IUCN), I have co-authored multiple Red List Assessments, a process which consists on collating all the available information on population trends, ecology, threats, and conservation for each species being assessed.
 
-**Pardo, S. A.**, Walls, R. H. L. & Bigman, J. S. 2016. *Mobula tarapacana*. The IUCN Red List of Threatened Species 2016: e.T60199A100016302. Downloaded on 08 November 2016. <http://www.iucnredlist.org/details/60200/0>
+**Pardo, S. A.**, Walls, R. H. L. & Bigman, J. S. 2016. *Mobula tarapacana*. The IUCN Red List of Threatened Species 2016: e.T60199A100016302. Downloaded on 08 November 2016. <http://www.iucnredlist.org/details/60199/0>
 
-Walls, R. H. L., **Pardo, S. A.**, Bigman, J. S., Clark, T. B., Smith, W. D. & Bizzarro, J. J. 2016. *Mobula thurstoni*. The IUCN Red List of Threatened Species 2016: e.T60200A100016879. Downloaded on 08 November 2016. <http://www.iucnredlist.org/details/60199/0>
+Walls, R. H. L., **Pardo, S. A.**, Bigman, J. S., Clark, T. B., Smith, W. D. & Bizzarro, J. J. 2016. *Mobula thurstoni*. The IUCN Red List of Threatened Species 2016: e.T60200A100016879. Downloaded on 08 November 2016. <http://www.iucnredlist.org/details/60200/0>
 
 ----
 
