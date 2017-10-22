@@ -9,9 +9,16 @@ image:
   creditlink: https://www.simonjpierce.com/
 ---
 
-I am interested in understanding the mechanisms that underpin relationships among life histories in fishes, and using these relationships to develop simple methods for predicting the biological traits and extinction risk of data-poor species.
+I am a Postdoctoral Fellow at Dalhousie University in Halifax, Nova Scotia, Canada. 
+My research focuses on understanding how life histories, particularly their relationships and variation within and among populations, 
+determine their potenitial to recover after disturbances. 
+My work is also applied: I develop simple methods for predicting the
+vulnerability of data-poor species based on insights from life history relationships.
+I am currently exploring and modelling the life histories of wild Atlantic salmon populations in Eastern Canada, working with 
+[Jeff Hutchings](http://www.fishlifehistory.ca/).
 
-I have recently finished my PhD working with [Nick Dulvy](http://www.dulvy.com) at Simon Fraser University in Canada, where my research focused on understanding the relationships among life histories in sharks, rays, and chimaeras. 
+I recently finished my [PhD](http://summit.sfu.ca/item/17259) working with [Nick Dulvy](http://www.dulvy.com) at Simon Fraser University in Vancouver, British Columbia, where my research focused on understanding the relationships among life histories in sharks, rays, and chimaeras. 
+For my Honours research at the University of Queensland in Brisbane, Australia, I explored dietary partitioning among co-occurring coastal stingrays working with [Mike Bennett](https://biomedical-sciences.uq.edu.au/profile/738/mike-bennett). 
 
 
 
