@@ -29,7 +29,7 @@ In press
 
 2017 
 :    <div data-badge-popover="left" data-badge-type="2" data-doi="10.1016/bs.amb.2017.08.001" data-hide-no-mentions="true" class="altmetric-embed"></div>
-     Kacev, D., Sippel, T. J., Kinney, M. J., **Pardo, S. A.**  Mull, C. G. 2017. 
+     Kacev, D., Sippel, T. J., Kinney, M. J., **Pardo, S. A.**, Mull, C. G. 2017. 
      An Introduction to Modelling Abundance and Life History Parameters in Shark Populations. In *Northeast Pacific Shark Biology, Research and Conservation Part B, Volume 78.* Larson, S. E., Lowry, D., eds., pp. 45–87 Oxford: Academic Press.
      <http://dx.doi.org/10.1016/bs.amb.2017.08.001>
 
