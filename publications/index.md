@@ -10,13 +10,6 @@ image:
   creditlink: https://www.simonjpierce.com/
 ---
 <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>  
-<!--
-:    <div data-badge-popover="left" data-badge-type="2" data-doi="" data-hide-no-mentions="true" class="altmetric-embed"></div>
-     **Pardo, S. A.**, Cooper, A. B., Reynolds, J. D., Dulvy, N. K. 2015.
-     Quantifying known unknowns: estimating maximum intrinsic rate of 
-     population increase in the face of uncertainty.
-     *ICES Journal of Marine Science*. In press.
--->
 <!---
 In press 
 :    <div data-badge-popover="left" data-badge-type="2" data-doi="" data-hide-no-mentions="true" class="altmetric-embed"></div>
@@ -26,6 +19,13 @@ In press
      Pre-print available from *BioRxiv*: <http://dx.doi.org/10.1101/043885>
 --->
 <!-- BioRxiv altmetric <div data-badge-popover="top" data-badge-type="1" data-doi="10.1101/043885" data-hide-no-mentions="true" class="altmetric-embed"></div> -->
+
+In press
+:    <div data-badge-popover="left" data-badge-type="2" data-doi="" data-hide-no-mentions="true" class="altmetric-embed"></div>
+     **Pardo, S. A.**, Cooper, A. B., Reynolds, J. D., Dulvy, N. K. 2017.
+     Quantifying known unknowns: estimating maximum intrinsic rate of 
+     population increase in the face of uncertainty.
+     *ICES Journal of Marine Science*. Accepted.
 
 2017 
 :    <div data-badge-popover="left" data-badge-type="2" data-doi="10.1016/bs.amb.2017.08.001" data-hide-no-mentions="true" class="altmetric-embed"></div>
