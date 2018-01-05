@@ -20,12 +20,13 @@ In press
 --->
 <!-- BioRxiv altmetric <div data-badge-popover="top" data-badge-type="1" data-doi="10.1101/043885" data-hide-no-mentions="true" class="altmetric-embed"></div> -->
 
-In press
-:    <div data-badge-popover="left" data-badge-type="2" data-doi="" data-hide-no-mentions="true" class="altmetric-embed"></div>
-     **Pardo, S. A.**, Cooper, A. B., Reynolds, J. D., Dulvy, N. K. 2017.
-     Quantifying known unknowns: estimating maximum intrinsic rate of 
+2018
+:    <div data-badge-popover="left" data-badge-type="2" data-doi="10.1093/icesjms/fsx220" data-hide-no-mentions="true" class="altmetric-embed"></div>
+     **Pardo, S. A.**, Cooper, A. B., Reynolds, J. D., Dulvy, N. K. 2018.
+     Quantifying the known unknowns: estimating maximum intrinsic rate of 
      population increase in the face of uncertainty.
-     *ICES Journal of Marine Science*. Accepted.
+     *ICES Journal of Marine Science*, fsx220.
+     <https://academic.oup.com/icesjms/advance-article/doi/10.1093/icesjms/fsx220/4791419>
 
 2017 
 :    <div data-badge-popover="left" data-badge-type="2" data-doi="10.1016/bs.amb.2017.08.001" data-hide-no-mentions="true" class="altmetric-embed"></div>
