@@ -10,7 +10,22 @@ image:
   creditlink: https://www.simonjpierce.com/
 ---
 <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>  
-<!---
+<!--
+In review 
+:    <div data-badge-popover="left" data-badge-type="2" data-doi="" data-hide-no-mentions="true" class="altmetric-embed"></div>
+     Bigman, J. **Pardo, S. A.**, Prinzing, T., Dando, M., Wegner, N. C., Dulvy, N. K. 2018.
+     Ecological lifestyles and the scaling of shark gill surface area. 
+     *Journal of Morphology*. In review.  
+     Pre-print available from *BioRxiv*: <http://dx.doi.org/>
+     
+     **Pardo, S. A.**, Bennett. M. B., Meyers, E., Schluessel, V. 2018.
+     A Bayesian biphasic model to improve age and growth estimates of the Ocellated Eagle Ray, *Aetobatus ocellatus*, with limited data.
+     *Marine and Freshwater Research*. In review.  
+     Pre-print available from *BioRxiv*: <http://dx.doi.org/>
+--->
+<!-- BioRxiv altmetric <div data-badge-popover="top" data-badge-type="1" data-doi="10.1101/043885" data-hide-no-mentions="true" class="altmetric-embed"></div> -->
+
+<!--
 In press 
 :    <div data-badge-popover="left" data-badge-type="2" data-doi="" data-hide-no-mentions="true" class="altmetric-embed"></div>
      **Pardo, S. A.**, Kindsvater, H. K., Cuevas-Zimbrón, E., Sosa-Nishizaki, O., Pérez-Jiménez, J. C., Dulvy, N. K. 2016.
@@ -25,8 +40,9 @@ In press
      **Pardo, S. A.**, Cooper, A. B., Reynolds, J. D., Dulvy, N. K. 2018.
      Quantifying the known unknowns: estimating maximum intrinsic rate of 
      population increase in the face of uncertainty.
-     *ICES Journal of Marine Science*, fsx220.
-     <https://academic.oup.com/icesjms/advance-article/doi/10.1093/icesjms/fsx220/4791419>
+     *ICES Journal of Marine Science*, 75:3, 953-963.
+     <https://academic.oup.com/icesjms/article/75/3/953/4791419>
+ 
 
 2017 
 :    <div data-badge-popover="left" data-badge-type="2" data-doi="10.1016/bs.amb.2017.08.001" data-hide-no-mentions="true" class="altmetric-embed"></div>
