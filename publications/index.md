@@ -35,6 +35,12 @@ In press
 --->
 <!-- BioRxiv altmetric <div data-badge-popover="top" data-badge-type="1" data-doi="10.1101/043885" data-hide-no-mentions="true" class="altmetric-embed"></div> -->
 
+In press 
+:    <div data-badge-popover="left" data-badge-type="2" data-doi="" data-hide-no-mentions="true" class="altmetric-embed"></div>
+     Bigman, J. **Pardo, S. A.**, Prinzing, T., Dando, M., Wegner, N. C., Dulvy, N. K. 2018.
+     Ecological lifestyles and the scaling of shark gill surface area. 
+     *Journal of Morphology*. In press.  
+     
 2018
 :    <div data-badge-popover="left" data-badge-type="2" data-doi="10.1093/icesjms/fsx220" data-hide-no-mentions="true" class="altmetric-embed"></div>
      **Pardo, S. A.**, Cooper, A. B., Reynolds, J. D., Dulvy, N. K. 2018.
@@ -93,8 +99,8 @@ Pierce, S. J., **Pardo, S. A.**, Bennett, M. B. 2009. Reproduction of the blue-s
 
 ## R packages
 
-2017
-:      Maia, R., Chamberlain, S., Teucher, A., **Pardo, S.** 2017. rebird: R Client for the eBird Database of Bird Observations. R package version 0.4.0. Retrieved from 
+2018
+:      Maia, R., Chamberlain, S., Teucher, A., **Pardo, S.** 2018. rebird: R Client for the eBird Database of Bird Observations. R package version 0.5.0. Retrieved from 
        <http://cran.r-project.org/package=rebird>
        <br>[![rstudio mirror downloads](http://cranlogs.r-pkg.org/badges/rebird)](https://github.com/metacran/cranlogs.app)
 <!--- for space between packages use <br><br> --->
