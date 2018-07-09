@@ -10,7 +10,7 @@ image:
 ---
 
 I am a Postdoctoral Fellow at Dalhousie University in Halifax, Nova Scotia, Canada. 
-My research focuses on understanding how life histories, particularly their relationships and variation within and among populations, 
+My research focuses on understanding how life histories of fishes, particularly their relationships and variation within and among populations, 
 determine their potenitial to recover after disturbances. 
 My work is also applied: I develop simple methods for predicting the
 vulnerability of data-poor species based on insights from life history relationships.
