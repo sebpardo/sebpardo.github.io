@@ -36,11 +36,12 @@ In press
 <!-- BioRxiv altmetric <div data-badge-popover="top" data-badge-type="1" data-doi="10.1101/043885" data-hide-no-mentions="true" class="altmetric-embed"></div> -->
 
 In press 
-:    <div data-badge-popover="left" data-badge-type="2" data-doi="" data-hide-no-mentions="true" class="altmetric-embed"></div>
+:    <div data-badge-popover="left" data-badge-type="2" data-doi="10.1002/jmor.20879" data-hide-no-mentions="true" class="altmetric-embed"></div>
      Bigman, J. **Pardo, S. A.**, Prinzing, T., Dando, M., Wegner, N. C., Dulvy, N. K. 2018.
      Ecological lifestyles and the scaling of shark gill surface area. 
-     *Journal of Morphology*. In press.  
-     
+     *Journal of Morphology*. Online Early View. 
+     <https://doi.org/10.1002/jmor.20879>
+
 2018
 :    <div data-badge-popover="left" data-badge-type="2" data-doi="10.1093/icesjms/fsx220" data-hide-no-mentions="true" class="altmetric-embed"></div>
      **Pardo, S. A.**, Cooper, A. B., Reynolds, J. D., Dulvy, N. K. 2018.
