@@ -88,7 +88,7 @@ Moore, J. E., Curtis, K. A., Lewison, R. L., Dillingham, P. W., Cope, J. M., For
 
 2012
 :      <div data-badge-popover="left" data-doi="" data-hide-no-mentions="true" class="altmetric-embed"></div>
-**Pardo, S. A.**, Cooper, A. B., Dulvy, N. K. 2012. [Critical review and analysis of existing risk-based techniques for determining sustainable mortality levels of bycatch species](http://www.dfo-mpo.gc.ca/Csas-sccs/publications/resdocs-docrech/2012/2012_014-eng.pdf). DFO Canadian Science Advisory Secretariat, Research Docucment 2012/014. iv + 30 p.
+**Pardo, S. A.**, Cooper, A. B., Dulvy, N. K. 2012. [Critical review and analysis of existing risk-based techniques for determining sustainable mortality levels of bycatch species](http://waves-vagues.dfo-mpo.gc.ca/Library/347146.pdf). DFO Canadian Science Advisory Secretariat, Research Docucment 2012/014. iv + 30 p.
 
 2009
 :      <div data-badge-popover="left" div data-badge-type="2" data-doi="10.1111/j.1095-8649.2009.02202.x" data-hide-no-mentions="true" class="altmetric-embed"></div>
