@@ -35,6 +35,14 @@ In press
 --->
 <!-- BioRxiv altmetric <div data-badge-popover="top" data-badge-type="1" data-doi="10.1101/043885" data-hide-no-mentions="true" class="altmetric-embed"></div> -->
 
+2019
+:    <span style="color:red">**Pre-print only**</span>
+     <div data-badge-popover="left" data-badge-type="2" data-doi="10.1101/584557" data-hide-no-mentions="true" class="altmetric-embed"></div>
+     D'Alberto, B. M., Carlson, J. K., **Pardo, S. A.**, Simpfendorer, C. A. 2019.
+     Population productivity of wedgefishes, guitarfishes, and banjo rays: inferring the potential for recovery.
+     *BioRxiv*: <https://doi.org/10.1101/584557>
+<!-- BioRxiv altmetric <div data-badge-popover="top" data-badge-type="1" data-doi="10.1101/584557" data-hide-no-mentions="true" class="altmetric-embed"></div> -->
+
 2018 
 :    <div data-badge-popover="left" data-badge-type="2" data-doi="10.1002/jmor.20879" data-hide-no-mentions="true" class="altmetric-embed"></div>
      Bigman, J., **Pardo, S. A.**, Prinzing, T., Dando, M., Wegner, N. C., Dulvy, N. K. 2018.
