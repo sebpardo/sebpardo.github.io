@@ -36,12 +36,21 @@ In press
 <!-- BioRxiv altmetric <div data-badge-popover="top" data-badge-type="1" data-doi="10.1101/043885" data-hide-no-mentions="true" class="altmetric-embed"></div> -->
 
 2019
-:    <span style="color:red">**Pre-print only**</span>
-     <div data-badge-popover="left" data-badge-type="2" data-doi="10.1101/584557" data-hide-no-mentions="true" class="altmetric-embed"></div>
+:    <div data-badge-popover="left" data-badge-type="2" data-doi="10.1093/icesjms/fsz188" data-hide-no-mentions="true" class="altmetric-embed"></div>
+     Bordeleau, X., **Pardo, S. A.**, Chaput, G., April, J., Dempson, B., Robertson, M., Levy, A., Jones, R., Hutchings, J. A., Whoriskey, F. G., Crossin, G. T. 2019. 
+     Spatio-temporal trends in the importance of iteroparity across Atlantic salmon populations of the northwest Atlantic.
+     *ICES Journal of Marine Science*, 
+     <https://academic.oup.com/icesjms/advance-article/doi/10.1093/icesjms/fsz188/5588516>
+
+
+
+:    <div data-badge-popover="left" data-badge-type="2" data-doi="10.1101/584557" data-hide-no-mentions="true" class="altmetric-embed"></div>
      D'Alberto, B. M., Carlson, J. K., **Pardo, S. A.**, Simpfendorer, C. A. 2019.
      Population productivity of wedgefishes, guitarfishes, and banjo rays: inferring the potential for recovery.
-     *BioRxiv*: <https://doi.org/10.1101/584557>
+     *BioRxiv*: <https://doi.org/10.1101/584557><br>
+     <span style="color:red">**Pre-print only**</span>
 <!-- BioRxiv altmetric <div data-badge-popover="top" data-badge-type="1" data-doi="10.1101/584557" data-hide-no-mentions="true" class="altmetric-embed"></div> -->
+
 
 2018 
 :    <div data-badge-popover="left" data-badge-type="2" data-doi="10.1002/jmor.20879" data-hide-no-mentions="true" class="altmetric-embed"></div>
