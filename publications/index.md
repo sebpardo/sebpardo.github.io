@@ -43,12 +43,12 @@ In press
      <https://academic.oup.com/icesjms/advance-article/doi/10.1093/icesjms/fsz188/5588516>
 
 
-
-:    <div data-badge-popover="left" data-badge-type="2" data-doi="10.1101/584557" data-hide-no-mentions="true" class="altmetric-embed"></div>
+:    <div data-badge-popover="left" data-badge-type="2" data-doi="10.1371/journal.pone.0225183" data-hide-no-mentions="true" class="altmetric-embed"></div>
      D'Alberto, B. M., Carlson, J. K., **Pardo, S. A.**, Simpfendorer, C. A. 2019.
-     Population productivity of wedgefishes, guitarfishes, and banjo rays: inferring the potential for recovery.
-     *BioRxiv*: <https://doi.org/10.1101/584557><br>
-     <span style="color:red">**Pre-print only**</span>
+     Population productivity of shovelnose rays: Inferring the potential for recovery.
+     *PLOS ONE*, 14:11, e0225183. 
+     <https://doi.org/10.1371/journal.pone.0225183>
+     Pre-print: [[*BioRxiv*](https://doi.org/10.1101/584557)]
 <!-- BioRxiv altmetric <div data-badge-popover="top" data-badge-type="1" data-doi="10.1101/584557" data-hide-no-mentions="true" class="altmetric-embed"></div> -->
 
 
