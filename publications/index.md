@@ -42,6 +42,13 @@ In press
      *PLOS ONE*, 15:5, e0232407. 
      <https://doi.org/10.1371/journal.pone.0232407>
 
+:    <div data-badge-popover="left" data-badge-type="2" data-doi="10.1093/icesjms/fsz188" data-hide-no-mentions="true" class="altmetric-embed"></div>
+     Bordeleau, X., **Pardo, S. A.**, Chaput, G., April, J., Dempson, B., Robertson, M., Levy, A., Jones, R., Hutchings, J. A., Whoriskey, F. G., Crossin, G. T. 2020. 
+     Spatio-temporal trends in the importance of iteroparity across Atlantic salmon populations of the northwest Atlantic.
+     *ICES Journal of Marine Science*, 77:1, 326-344. 
+     <https://academic.oup.com/icesjms/advance-article/doi/10.1093/icesjms/fsz188/5588516>
+
+
 
 2019
 :    <div id="block_container"><div id="am" data-badge-popover="left" data-badge-type="2" data-doi="10.1371/journal.pone.0225183" data-hide-no-mentions="true" class="altmetric-embed"></div><div id="oa"><i class="ai fa-fw ai-open-access fa-lg"></i></div></div>
@@ -51,13 +58,6 @@ In press
      <https://doi.org/10.1371/journal.pone.0225183>
      Pre-print: [[*BioRxiv*](https://doi.org/10.1101/584557)]
 <!-- BioRxiv altmetric <div data-badge-popover="top" data-badge-type="1" data-doi="10.1101/584557" data-hide-no-mentions="true" class="altmetric-embed"></div> -->
-
-
-:    <div data-badge-popover="left" data-badge-type="2" data-doi="10.1093/icesjms/fsz188" data-hide-no-mentions="true" class="altmetric-embed"></div>
-     Bordeleau, X., **Pardo, S. A.**, Chaput, G., April, J., Dempson, B., Robertson, M., Levy, A., Jones, R., Hutchings, J. A., Whoriskey, F. G., Crossin, G. T. 2019. 
-     Spatio-temporal trends in the importance of iteroparity across Atlantic salmon populations of the northwest Atlantic.
-     *ICES Journal of Marine Science*, 
-     <https://academic.oup.com/icesjms/advance-article/doi/10.1093/icesjms/fsz188/5588516>
 
 
 2018 
