@@ -35,8 +35,16 @@ In press
 --->
 <!-- BioRxiv altmetric <div data-badge-popover="top" data-badge-type="1" data-doi="10.1101/043885" data-hide-no-mentions="true" class="altmetric-embed"></div> -->
 
+2020
+:    <div id="block_container"><div id="am" data-badge-popover="left" data-badge-type="2" data-doi="10.1371/journal.pone.0232407" data-hide-no-mentions="true" class="altmetric-embed"></div><div id="oa"><i class="ai fa-fw ai-open-access fa-lg"></i></div></div>
+     **Pardo, S. A.**, Hutchings, J. A. 2020.
+     Estimating marine survival of Atlantic salmon using an inverse matrix approach.
+     *PLOS ONE*, 15:5, e0232407. 
+     <https://doi.org/10.1371/journal.pone.0232407>
+
+
 2019
-:    <div data-badge-popover="left" data-badge-type="2" data-doi="10.1371/journal.pone.0225183" data-hide-no-mentions="true" class="altmetric-embed"></div>
+:    <div id="block_container"><div id="am" data-badge-popover="left" data-badge-type="2" data-doi="10.1371/journal.pone.0225183" data-hide-no-mentions="true" class="altmetric-embed"></div><div id="oa"><i class="ai fa-fw ai-open-access fa-lg"></i></div></div>
      D'Alberto, B. M., Carlson, J. K., **Pardo, S. A.**, Simpfendorer, C. A. 2019.
      Population productivity of shovelnose rays: Inferring the potential for recovery.
      *PLOS ONE*, 14:11, e0225183. 
