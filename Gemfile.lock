@@ -31,7 +31,7 @@ GEM
       multipart-post (>= 1.2, < 3)
       ruby2_keywords
     faraday-net_http (1.0.1)
-    ffi (1.9.25)
+    ffi (1.10.0)
     forwardable-extended (2.6.0)
     gemoji (3.0.1)
     github-pages (212)
@@ -279,7 +279,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  ffi (~> 1.9.24)
+  ffi (~> 1.10.0)
   github-pages
   jekyll (~> 3.8)
   jekyll-gist

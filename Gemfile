@@ -6,7 +6,7 @@ gem "jekyll-gist"
 gem 'octopress', '~> 3.0.11'
 gem 'jekyll-pandoc', '~> 0.0.1'
 #gem 'jekyll-pandoc-multiple-formats', '~> 0.0.7'
-gem 'ffi', '~> 1.9.24' 
+gem 'ffi', '~> 1.10.0' 
 gem 'github-pages', group: :jekyll_plugins
 gem "nokogiri", ">= 1.11.0"
 gem "rubyzip", ">= 1.3.0"
