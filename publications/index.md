@@ -35,6 +35,13 @@ In press
 --->
 <!-- BioRxiv altmetric <div data-badge-popover="top" data-badge-type="1" data-doi="10.1101/043885" data-hide-no-mentions="true" class="altmetric-embed"></div> -->
 
+
+2021
+:    <div id="block_container"><div id="am" data-badge-popover="left" data-badge-type="2" data-doi="10.1093/icesjms/fsab118" data-hide-no-mentions="true" class="altmetric-embed"></div><div id="oa"><i class="ai fa-fw ai-open-access fa-lg"></i></div></div>
+     **Pardo, S. A.**, Bolstad, G. H., Dempson, J. B., April, J., Jones, R. A., Raab, D., Hutchings, J. A. 2021. Trends in marine survival of Atlantic salmon populations in eastern Canada. 
+     *ICES Journal of Marine Science*. fsab118. <https://academic.oup.com/icesjms/advance-article/doi/10.1093/icesjms/fsab118/6307378>
+
+
 2020
 :    <div id="block_container"><div id="am" data-badge-popover="left" data-badge-type="2" data-doi="10.1371/journal.pone.0232407" data-hide-no-mentions="true" class="altmetric-embed"></div><div id="oa"><i class="ai fa-fw ai-open-access fa-lg"></i></div></div>
      **Pardo, S. A.**, Hutchings, J. A. 2020.
@@ -124,8 +131,8 @@ Pierce, S. J., **Pardo, S. A.**, Bennett, M. B. 2009. Reproduction of the blue-s
 
 ## R packages
 
-2019
-:      Maia, R., Chamberlain, S., Teucher, A., **Pardo, S.** 2019. rebird: R Client for the eBird Database of Bird Observations. Retrieved from 
+2021
+:      Maia, R., Chamberlain, S., Teucher, A., **Pardo, S.** 2021. rebird: R Client for the eBird Database of Bird Observations. Retrieved from 
        <http://cran.r-project.org/package=rebird>
        <br>[![cran version](http://www.r-pkg.org/badges/version/rebird)](https://cran.r-project.org/package=rebird/)
        [![rstudio mirror downloads](http://cranlogs.r-pkg.org/badges/rebird)](https://github.com/metacran/cranlogs.app)
