@@ -9,16 +9,13 @@ image:
   creditlink: https://www.simonjpierce.com/
 ---
 
-I am a Postdoctoral Fellow at Dalhousie University in Halifax, Nova Scotia, Canada. 
-My research focuses on understanding how life histories of fishes, particularly their relationships and variation within and among populations, 
-determine their potenitial to recover after disturbances. 
-My work is also applied: I develop simple methods for predicting the
-vulnerability of data-poor species based on insights from life history relationships.
-I am currently exploring and modelling the life histories of wild Atlantic salmon populations in Eastern Canada, working with 
-[Jeff Hutchings](http://www.fishlifehistory.ca/).
+I am currently the Sustainable Fisheries Coordinator at the [Ecology Action Centre](https://ecologyaction.ca), a member-based environmental charity in Halifax, Nova Scotia, Canada. In this role, I advocate for resilient fisheries in Atlantic Canada that socially, economically, and ecologically sustainable. 
 
-I recently finished my [PhD](http://summit.sfu.ca/item/17259) working with [Nick Dulvy](http://www.dulvy.com) at Simon Fraser University in Vancouver, British Columbia, where my research focused on understanding the relationships among life histories in sharks, rays, and chimaeras. 
-For my Honours research at the University of Queensland in Brisbane, Australia, I explored dietary partitioning among co-occurring coastal stingrays working with [Mike Bennett](https://biomedical-sciences.uq.edu.au/profile/738/mike-bennett). 
+Previously, I worked as a Postdoctoral Fellow at Dalhousie University in Halifax, where I explored patterns in life histories of wild Atlantic salmon populations in Eastern Canada, working with 
+[Jeff Hutchings](http://www.fishlifehistory.ca/).
+I completed my [PhD](http://summit.sfu.ca/item/17259) in 2017 with [Nick Dulvy](http://www.dulvy.com) at Simon Fraser University in Vancouver, British Columbia, where my research focused on understanding the relationships among life histories in sharks, rays, and chimaeras. 
+For my undergraduate Honours research at the University of Queensland in Brisbane, Australia, I explored dietary partitioning among co-occurring coastal stingrays working with [Mike Bennett](https://biomedical-sciences.uq.edu.au/profile/738/mike-bennett). 
+
 
 
 
