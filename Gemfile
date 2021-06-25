@@ -8,8 +8,8 @@ gem 'jekyll-pandoc', '~> 0.0.1'
 #gem 'jekyll-pandoc-multiple-formats', '~> 0.0.7'
 gem 'ffi', '~> 1.10.0' 
 gem 'github-pages', group: :jekyll_plugins
-gem "nokogiri", ">= 1.11.0"
+gem "nokogiri", ">= 1.11.4"
 gem "rubyzip", ">= 1.3.0"
-gem "kramdown", ">= 2.3.0"
+gem "kramdown", ">= 2.3.1"
 
 
