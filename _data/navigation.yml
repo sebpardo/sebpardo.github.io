@@ -3,8 +3,8 @@
 - title: About
   url: /
 
-- title: Research 
-  url: /research/
+  #- title: Research 
+  #url: /research/
 
 - title: Publications 
   url: /publications/
@@ -12,8 +12,8 @@
 - title: Blog 
   url: /posts/
 
-- title: Photos (Flickr)
-  url: https://flickr.com/sebpardo
+  #- title: Photos (Flickr)
+  #url: https://flickr.com/sebpardo
 
 - title: Twitter 
   url: https://www.twitter.com/sebpardo
