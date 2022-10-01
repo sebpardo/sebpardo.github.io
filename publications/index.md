@@ -35,17 +35,44 @@ In press
 --->
 <!-- BioRxiv altmetric <div data-badge-popover="top" data-badge-type="1" data-doi="10.1101/043885" data-hide-no-mentions="true" class="altmetric-embed"></div> -->
 
+In press
+:    <div id="block_container"><div id="am" data-badge-popover="left" data-badge-type="2" data-doi="10.1139/cjfas-2021-0302" data-hide-no-mentions="true" class="altmetric-embed"></div><div id="oa"><i class="ai fa-fw ai-open-access fa-lg"></i></div></div>
+     Tirronen, M., Hutchings, J. A., **Pardo, S. A.**, Kuparinen, A. 2022. Atlantic salmon survival at sea: temporal changes that lack regional synchrony. *Canadian Journal of Fisheries and Aquatic Sciences*. <https://dx.doi.org/10.1139/cjfas-2021-0302><br>
+
+2022
+:    <div id="block_container"><div id="am" data-badge-popover="left" data-badge-type="2" data-doi="10.1038/s41597-022-01655-1" data-hide-no-mentions="true" class="altmetric-embed"></div><div id="oa"><i class="ai fa-fw ai-open-access fa-lg"></i></div></div>
+     Mull, C. G., Pacoureau, N., **Pardo, S. A.**, Ruiz, L. S., García-Rodríguez, E., Finucci, B., Haack, M., Harry, A., Judah, A. B., VanderWright, W., Yin, J. S., Kindsvater, H. K., Dulvy, N. K. 2022. Sharkipedia: a curated open access database of shark and ray life history traits and abundance time-series. Scientific Data, 9:1, 559. <https://www.nature.com/articles/s41597-022-01655-1>
+
+
+:    <div id="am" data-badge-popover="left" data-badge-type="2" data-doi="10.1016/j.fishres.2022.106488" data-hide-no-mentions="true" class="altmetric-embed"></div>
+     Dureuil, M., Aeberhard, W. H., Dowd, M., **Pardo, S. A.**, Whoriskey, F. G., Worm, B. 2022. Reliable growth estimation from mark–recapture tagging data in elasmobranchs. *Fisheries Research*, 256: 106488. <https://dx.doi.org/10.1016/j.fishres.2022.106488>
+
+
+:    <div id="am" data-badge-popover="left" data-badge-type="2" data-doi="10.1201/9781003262190-6" data-hide-no-mentions="true" class="altmetric-embed"></div>
+     Harry, A. V., Smart, J. J., **Pardo, S. A.** 2022. Understanding the Age and Growth of Chondrichthyan Fishes. In *Biology of Sharks and Their Relatives*, 3rd Edition. Carrier, J. C., Simpfendorfer, C. A., Heithaus, M. R., Yopak, K. E., eds., CRC Press, Boca Raton. pp. 177–202. 
+     <https://www.taylorfrancis.com/books/9781003262190/chapters/10.1201/9781003262190-6> 
+
+
 
 2021
 :    <div id="block_container"><div id="am" data-badge-popover="left" data-badge-type="2" data-doi="10.1093/icesjms/fsab118" data-hide-no-mentions="true" class="altmetric-embed"></div><div id="oa"><i class="ai fa-fw ai-open-access fa-lg"></i></div></div>
      **Pardo, S. A.**, Bolstad, G. H., Dempson, J. B., April, J., Jones, R. A., Raab, D., Hutchings, J. A. 2021. Trends in marine survival of Atlantic salmon populations in eastern Canada. 
-     *ICES Journal of Marine Science*. fsab118. <https://academic.oup.com/icesjms/advance-article/doi/10.1093/icesjms/fsab118/6307378>
+     *ICES Journal of Marine Science*, 78:7, 2460-2473.  
+     <https://academic.oup.com/icesjms/article/78/7/2460/6307378>
+
+:    <div id="am" data-badge-popover="left" data-badge-type="2" data-doi="10.1201/b22502-2" data-hide-no-mentions="true" class="altmetric-embed"></div>
+     Pierce, S. J., **Pardo, S. A.**, Rohner, C. A., Matsumoto, R., Murakumo, K., Nozu, R., Dove, A. D. M., Perry, C, Meekan, M. G. 2021. Whale Shark Reproduction, Growth, and Demography. In *Whale Sharks*. Dove, A. D. M., Pierce S. J., eds., CRC Press, Boca Raton. pp. 13-45. 
+     <https://www.taylorfrancis.com/books/9780203702918/chapters/10.1201/b22502-2>
+
+:    <div id="am" data-badge-popover="left" data-badge-type="2" data-doi="10.1201/b22502-13" data-hide-no-mentions="true" class="altmetric-embed"></div>
+     Rowat, D., Robinson, D. P., Dove, A. D. M., Araujo, G., Clauss, T., Coco, C., Dearden, P., Grace, M. K., Green, J. R., Hearn, A. R., Holmberg, J., Hoopes, L., Matsumoto, R., McClain, C. R., Meekan, M. G., Murakumo, K., Norman, B. M., Nozu, R., **Pardo, S. A.**, Peele, E. E., Peñaherrera-Palma, C. R., Perry, C., Prebble, C. E. M., Reynolds, S., Román, M., Rohner, C. A., Sato, K., Schmidt, J. V., Schreiber, C., Sequeira, A. M. M., Womersley, F., Yanagisawa, M., Yopak, K. E., Ziegler, J., Pierce, S. J. 2021. Outstanding Questions in Whale Shark Research and Conservation. In *Whale Sharks*. Dove, A. D. M., Pierce S. J., eds., CRC Press, Boca Raton. pp. 301-318. 
+     <https://www.taylorfrancis.com/books/9780203702918/chapters/10.1201/b22502-13>
 
 
 2020
 :    <div id="block_container"><div id="am" data-badge-popover="left" data-badge-type="2" data-doi="10.1371/journal.pone.0232407" data-hide-no-mentions="true" class="altmetric-embed"></div><div id="oa"><i class="ai fa-fw ai-open-access fa-lg"></i></div></div>
      **Pardo, S. A.**, Hutchings, J. A. 2020.
-     Estimating marine survival of Atlantic salmon using an inverse matrix approach.
+     Estimating marine survival of Atlantic salmon using an inverse matrix approach
      *PLOS ONE*, 15:5, e0232407. 
      <https://doi.org/10.1371/journal.pone.0232407>
 
