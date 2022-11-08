@@ -35,11 +35,18 @@ In press
 --->
 <!-- BioRxiv altmetric <div data-badge-popover="top" data-badge-type="1" data-doi="10.1101/043885" data-hide-no-mentions="true" class="altmetric-embed"></div> -->
 
-In press
-:    <div id="block_container"><div id="am" data-badge-popover="left" data-badge-type="2" data-doi="10.1139/cjfas-2021-0302" data-hide-no-mentions="true" class="altmetric-embed"></div><div id="oa"><i class="ai fa-fw ai-open-access fa-lg"></i></div></div>
-     Tirronen, M., Hutchings, J. A., **Pardo, S. A.**, Kuparinen, A. 2022. Atlantic salmon survival at sea: temporal changes that lack regional synchrony. *Canadian Journal of Fisheries and Aquatic Sciences*. <https://dx.doi.org/10.1139/cjfas-2021-0302><br>
-
 2022
+:    <div id="block_container"><div id="am" data-badge-popover="left" data-badge-type="2" data-doi="10.1002/ece3.9441" data-hide-no-mentions="true" class="altmetric-embed"></div><div id="oa"><i class="ai fa-fw ai-open-access fa-lg"></i></div></div>
+     **Pardo, S. A.** and Dulvy, N. K. 2022. Body mass, temperature, and depth shape the maximum intrinsic rate of population increase in sharks and rays. 
+     *Ecology and Evolution*, 12, e9441. <https://onlinelibrary.wiley.com/doi/10.1002/ece3.9441><br>
+     Pre-print: [[*BioRxiv*](https://doi.org/10.1101/2021.03.02.433372)]
+
+
+:    <div id="block_container"><div id="am" data-badge-popover="left" data-badge-type="2" data-doi="10.1139/cjfas-2021-0302" data-hide-no-mentions="true" class="altmetric-embed"></div><div id="oa"><i class="ai fa-fw ai-open-access fa-lg"></i></div></div>
+     Tirronen, M., Hutchings, J. A., **Pardo, S. A.**, Kuparinen, A. 2022. Atlantic salmon survival at sea: temporal changes that lack regional synchrony. 
+     *Canadian Journal of Fisheries and Aquatic Sciences*, 79:10, 1697-1711. <https://dx.doi.org/10.1139/cjfas-2021-0302><br>
+
+
 :    <div id="block_container"><div id="am" data-badge-popover="left" data-badge-type="2" data-doi="10.1038/s41597-022-01655-1" data-hide-no-mentions="true" class="altmetric-embed"></div><div id="oa"><i class="ai fa-fw ai-open-access fa-lg"></i></div></div>
      Mull, C. G., Pacoureau, N., **Pardo, S. A.**, Ruiz, L. S., García-Rodríguez, E., Finucci, B., Haack, M., Harry, A., Judah, A. B., VanderWright, W., Yin, J. S., Kindsvater, H. K., Dulvy, N. K. 2022. Sharkipedia: a curated open access database of shark and ray life history traits and abundance time-series. Scientific Data, 9:1, 559. <https://www.nature.com/articles/s41597-022-01655-1>
 
