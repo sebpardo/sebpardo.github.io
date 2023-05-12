@@ -35,6 +35,14 @@ In press
 --->
 <!-- BioRxiv altmetric <div data-badge-popover="top" data-badge-type="1" data-doi="10.1101/043885" data-hide-no-mentions="true" class="altmetric-embed"></div> -->
 
+
+2023
+:    <div id="block_container"><div id="am" data-badge-popover="left" data-badge-type="2" data-doi="10.1016/j.biocon.2023.110003" data-hide-no-mentions="true" class="altmetric-embed"></div><div id="oa"><i class="ai fa-fw ai-open-access fa-lg"></i></div></div>
+     Barrowclift, E., Gravel, S. M., **Pardo, S. A.**, Bigman, J. S., Berggren, P., Dulvy, N. K. 2023. Tropical rays are intrinsically more sensitive to overfishing than the temperate skates. 
+     *Biological Conservation*, 281, 110003. <https://doi.org/10.1016/j.biocon.2023.110003>
+
+
+
 2022
 :    <div id="block_container"><div id="am" data-badge-popover="left" data-badge-type="2" data-doi="10.1002/ece3.9441" data-hide-no-mentions="true" class="altmetric-embed"></div><div id="oa"><i class="ai fa-fw ai-open-access fa-lg"></i></div></div>
      **Pardo, S. A.** and Dulvy, N. K. 2022. Body mass, temperature, and depth shape the maximum intrinsic rate of population increase in sharks and rays. 
