@@ -28,12 +28,15 @@ In review
 <!--
 In press 
 :    <div data-badge-popover="left" data-badge-type="2" data-doi="" data-hide-no-mentions="true" class="altmetric-embed"></div>
-     **Pardo, S. A.**, Kindsvater, H. K., Cuevas-Zimbrón, E., Sosa-Nishizaki, O., Pérez-Jiménez, J. C., Dulvy, N. K. 2016.
-     Devil in the details: growth, productivity, and extinction risk of a data-sparse devil ray.
-     *Scientific Reports*. Accepted.  
+     Gravel, S., Bigman, J. S., *Pardo, S. A.*, Wong, S., and Dulvy, N. K. 2024. Metabolism, population growth, and the fast‐slow life history continuum of marine fishes. *Fish and Fisheries*, 25:2, 349-361. <https://doi:10.1111/faf.12811>
      Pre-print available from *BioRxiv*: <http://dx.doi.org/10.1101/043885>
 --->
 <!-- BioRxiv altmetric <div data-badge-popover="top" data-badge-type="1" data-doi="10.1101/043885" data-hide-no-mentions="true" class="altmetric-embed"></div> -->
+
+2024
+:    <div id="block_container"><div id="am" data-badge-popover="left" data-badge-type="2" data-doi="doi:10.1111/faf.12811" data-hide-no-mentions="true" class="altmetric-embed"></div><div id="oa"><i class="ai fa-fw ai-open-access fa-lg"></i></div></div>
+     Gravel, S., Bigman, J. S., **Pardo, S. A.**, Wong, S., and Dulvy, N. K. 2024. Metabolism, population growth, and the fast‐slow life history continuum of marine fishes. *Fish and Fisheries*, 25:2, 349-361. <https://doi:10.1111/faf.12811>
+
 
 
 2023
@@ -44,7 +47,7 @@ In press
 
 
 2022
-:    <div id="block_container"><div id="am" data-badge-popover="left" data-badge-type="2" data-doi="10.1002/ece3.9441" data-hide-no-mentions="true" class="altmetric-embed"></div><div id="oa"><i class="ai fa-fw ai-open-access fa-lg"></i></div></div>
+:    <div id="block_container"><div id="am" data-badge-popover="left" data-badge-type="2" data-doi="10.1002/ece3.9441" data-hide-no-mentions="false" class="altmetric-embed"></div><div id="oa"><i class="ai fa-fw ai-open-access fa-lg"></i></div></div>
      **Pardo, S. A.** and Dulvy, N. K. 2022. Body mass, temperature, and depth shape the maximum intrinsic rate of population increase in sharks and rays. 
      *Ecology and Evolution*, 12, e9441. <https://onlinelibrary.wiley.com/doi/10.1002/ece3.9441><br>
      Pre-print: [[*BioRxiv*](https://doi.org/10.1101/2021.03.02.433372)]
