@@ -47,7 +47,7 @@ In press
 
 
 2022
-:    <div id="block_container"><div id="am" data-badge-popover="left" data-badge-type="2" data-doi="10.1002/ece3.9441" data-hide-no-mentions="false" class="altmetric-embed"></div><div id="oa"><i class="ai fa-fw ai-open-access fa-lg"></i></div></div>
+:    <div id="block_container"><div id="am" data-badge-popover="left" data-badge-type="2" data-doi="10.1002/ece3.9441" data-hide-no-mentions="true" class="altmetric-embed"></div><div id="oa"><i class="ai fa-fw ai-open-access fa-lg"></i></div></div>
      **Pardo, S. A.** and Dulvy, N. K. 2022. Body mass, temperature, and depth shape the maximum intrinsic rate of population increase in sharks and rays. 
      *Ecology and Evolution*, 12, e9441. <https://onlinelibrary.wiley.com/doi/10.1002/ece3.9441><br>
      Pre-print: [[*BioRxiv*](https://doi.org/10.1101/2021.03.02.433372)]
