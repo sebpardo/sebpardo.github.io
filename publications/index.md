@@ -33,6 +33,15 @@ In press
 --->
 <!-- BioRxiv altmetric <div data-badge-popover="top" data-badge-type="1" data-doi="10.1101/043885" data-hide-no-mentions="true" class="altmetric-embed"></div> -->
 
+2026
+:    <div id="block_container"><div id="am" data-badge-popover="left" data-badge-type="2" data-doi="doi:10.1139/cjfas-2025-0295" data-hide-no-mentions="true" class="altmetric-embed"></div><div id="oa"><i class="ai fa-fw ai-open-access fa-lg"></i></div></div> 
+     **Pardo, S. A.**, Freshwater, C., and King, J. 2026. Stock-specific marine distribution patterns of juvenile Chinook Salmon reveal a gradient of migratory strategies during their first year at sea. *Canadian Journal of Fisheries and Aquatic Sciences*, 83, 1–16. <https://doi.org/10.1139/cjfas-2025-0295>
+
+2024
+:    <div id="block_container"><div id="am" data-badge-popover="left" data-badge-type="2" data-doi="10.1007/s00227-024-04564-6" data-hide-no-mentions="true" class="altmetric-embed"></div><div id="oa"><i class="ai fa-fw ai-open-access fa-lg"></i></div></div>
+     Barrowclift, E., Temple, A. J., **Pardo, S. A.**, Khan, A. M. A., Razzaque, S. A., Wambiji, N., Ismail, M. R., Dewanti, L. P., and Berggren, P. 2025. Age, growth, and intrinsic sensitivity of Endangered Spinetail Devil Ray (*Mobula mobular*) and Bentfin Devil Ray (*M. thurstoni*) in the Indian Ocean. *Marine Biology*, 172:2, 24. <https://doi.org/10.1007/s00227-024-04564-6>
+
+
 2024
 :    <div id="block_container"><div id="am" data-badge-popover="left" data-badge-type="2" data-doi="doi:10.1111/faf.12811" data-hide-no-mentions="true" class="altmetric-embed"></div><div id="oa"><i class="ai fa-fw ai-open-access fa-lg"></i></div></div>
      Gravel, S., Bigman, J. S., **Pardo, S. A.**, Wong, S., and Dulvy, N. K. 2024. Metabolism, population growth, and the fast‐slow life history continuum of marine fishes. *Fish and Fisheries*, 25:2, 349-361. <https://doi:10.1111/faf.12811>
@@ -43,7 +52,6 @@ In press
 :    <div id="block_container"><div id="am" data-badge-popover="left" data-badge-type="2" data-doi="10.1016/j.biocon.2023.110003" data-hide-no-mentions="true" class="altmetric-embed"></div><div id="oa"><i class="ai fa-fw ai-open-access fa-lg"></i></div></div>
      Barrowclift, E., Gravel, S. M., **Pardo, S. A.**, Bigman, J. S., Berggren, P., Dulvy, N. K. 2023. Tropical rays are intrinsically more sensitive to overfishing than the temperate skates. 
      *Biological Conservation*, 281, 110003. <https://doi.org/10.1016/j.biocon.2023.110003>
-
 
 
 2022
